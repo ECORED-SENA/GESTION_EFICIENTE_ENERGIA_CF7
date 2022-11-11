@@ -52,26 +52,29 @@
 
     p.mb-3 Además de los agentes mencionados, participan en el MEM los siguientes órganos de operación y administración:
 
-    .row.justify-content-around.align-items-center.mb-5(data-aos="zoom-in-right")
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema8/1.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema8/1.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
             .p-4
-              p.text-center.mb-5 Centro Nacional de Despacho (CND).
+              p.text-center.mb-4 Centro Nacional de Despacho (CND).
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-5.mb-lg-0  
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema8/2.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema8/2.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-8
             .p-4
-              p.text-center.mb-4 Administrador del Sistema de Intercambios Comerciales (ASIC).
-      .col-md-6.col-lg.mb-5.mb-lg-0
+              p.text-center.mb-0 Administrador del Sistema de Intercambios Comerciales (ASIC).
+      .col-md-6.col-lg.mb-5.mb-lg-0   
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema8/3.svg',  alt='', style="width:130px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema8/3.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
             .p-4            
               p.text-center.mb-0 Liquidador y Administrador de Cuentas de cargos por Uso de las Redes del SIN (LAC).
+
+
 
     p.mb-3 A pesar de que cada organismo de operación y administración tiene funciones diferentes, existe una empresa llamada XM que cumple con todas las funciones de los tres anteriores organismos descritos.
 
@@ -231,7 +234,7 @@
 
               tr
                 td Compras de energía del mercado regulado.
-                td Resolución CREG 114 de 2018. http://apolo.creg.gov.co/Publicac.nsf/1c09d18d2d5ffb5b05256eee00709c02/e1aa2bca619f4f6e05258305007463d1?OpenDocument 
+                td Resolución CREG 114 de 2018. http://apolo.creg.gov.co/Publicac.nsf/1c09d18d2d5ffb5b05256eee00709c02/e1aa2bca619f4f6e05258305007463d1? <br>OpenDocument 
 
 
 

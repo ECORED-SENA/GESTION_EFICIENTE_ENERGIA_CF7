@@ -14,7 +14,7 @@
 
         p.mb-3 De acuerdo con el Artículo 365 de la Constitución Política de Colombia de 1991, los servicios públicos hacen parte del fin social del Estado y es su deber garantizar el acceso y prestación de manera eficiente a todos los habitantes del país. Además, establece que el Estado debe mantener la regulación, el control y la vigilancia de estos servicios; se considera que son esenciales porque con la prestación de estos servicios se satisfacen las necesidades básicas de bienestar para cada uno de los usuarios.
 
-        p.mb-0 La palabra “domiciliarios” hace referencia a que la prestación del servicio público se recibe en el lugar de residencia o en el sitio físico donde una empresa u organización realiza sus actividades de comercio, de servicios e industriales.
+        p.mb-3 La palabra “domiciliarios” hace referencia a que la prestación del servicio público se recibe en el lugar de residencia o en el sitio físico donde una empresa u organización realiza sus actividades de comercio, de servicios e industriales.
       .col-md-5.col-lg.mb-5.mb-lg-0(data-aos="fade-left") 
         img(src="@/assets/curso/images/tema7/img_1.svg") 
   

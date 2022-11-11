@@ -231,7 +231,7 @@
     
     .row.justify-content-center.align-items-star.mb-5
       .col-6.col-lg-5(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema6/img_4.svg')
+        img(src='@/assets/curso/images/tema6/img_4.svg').mb-3
       .col-lg-7(data-aos="fade-left")
         p.mb-3 Con el fin de facilitar el cálculo de la huella de carbono, a nivel mundial se han desarrollado estudios liderados por el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC por sus siglas en inglés) en donde es posible calcular las emisiones de GEI con una fórmula sencilla, a partir de la multiplicación de la cantidad del dato o actividad por un factor numérico (que puede variar a través de los años). 
         p.mb-3 Para algunas actividades y usos de la energía el valor de los factores de emisión puede variar, dependiendo del país, por tal razón, cada gobierno ha adoptado los factores que son comunes a nivel internacional y ha calculado sus propios factores en los casos que se requieran.

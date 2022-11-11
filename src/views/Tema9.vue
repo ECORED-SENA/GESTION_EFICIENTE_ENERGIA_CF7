@@ -275,22 +275,22 @@
                 .col.mb-3.mb-sm-0
                   h5.text-white Te invitamos a revisar los videos, para entender este mercado:
                   p.mb-1.text-white En el Codensa muestra de manera general de qué se trata la comercialización de energía.
-                  p.mb-0.text-white Concepto de tarifa y sus componentes. 
+                  p.mb-3.text-white Concepto de tarifa y sus componentes. 
 
                 .col-md-3
-                  a.boton.color-custom-1.mb-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.boton.color-custom-1.mb-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank").mx-1
                     span Ver video
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_play.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
          
-                  a.boton.color-custom-1(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.boton.color-custom-1.mx-1(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
                     span Ver video
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_play.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-custom-10.p-5
           .row.justify-content-center.mb-4
@@ -315,7 +315,7 @@
 
         p.mb-3 En la siguiente tabla se muestran los precios promedio de compra de energía en la bolsa y los precios de los contratos.
 
-        p.mb-0 Se debe tener en cuenta que estos valores corresponden solo al componente de generación (G) el cual es el único que se puede negociar en el mercado.
+        p.mb-3 Se debe tener en cuenta que estos valores corresponden solo al componente de generación (G) el cual es el único que se puede negociar en el mercado.
 
       .col-lg-9
         .tabla-a.color-acento-botones.mb-2
@@ -501,7 +501,7 @@
     p.mb-3 La ventaja de pertenecer a la categoría de usuario no regulado, es que por lo general (salvo en casos muy especiales) se obtiene un mejor precio por el valor unitario del kilovatio hora ($/kWh), permitiendo que se pague menos dinero por el consumo total facturado. Lo anterior se refleja en la siguiente figura donde se muestra el comportamiento del valor unitario promedio en el país durante los años 2016 a 2018 por departamento:
 
     .row.justify-content-center.mb-0
-      .col-6.col-lg-7
+      .col-12.col-lg-7
         img(src='@/assets/curso/images/tema9/fig_5.svg')
 
         .row.mt-3

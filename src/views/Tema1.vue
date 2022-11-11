@@ -79,7 +79,7 @@
     .row.align-items-center.justify-content-center.p-4
       SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/1.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/1.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-2
             .p-4.text-ce
               h4.text-center Sistema 
@@ -87,21 +87,21 @@
 
 
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/2.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/2.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-3
             .p-5
               h4.text-center.mb-5 Propiedades termodinámicas
 
 
         .tarjeta-avatar
-          img.mb-5(src='@/assets/curso/images/tema1/3.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+          img.mb-5(src='@/assets/curso/images/tema1/3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-2.p-5
             .p-5
               h4.text-center Estado
 
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/4.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+          img(src='@/assets/curso/images/tema1/4.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-3.p-3
             .p-5

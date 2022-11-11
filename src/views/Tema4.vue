@@ -66,7 +66,7 @@
           .list__txt    
             p.m-top.mx-2 Parques solares fotovoltaicos. 
 
-        p.mb-0 Para ampliar la información se invita a revisar el siguiente documento.
+        p.mb-3 Para ampliar la información se invita a revisar el siguiente documento.
       .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema4/img_1.png',)
       
