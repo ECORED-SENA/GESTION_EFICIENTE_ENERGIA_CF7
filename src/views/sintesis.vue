@@ -138,7 +138,7 @@
 
     .row.justify-content-center.align-items-center
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/public/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
