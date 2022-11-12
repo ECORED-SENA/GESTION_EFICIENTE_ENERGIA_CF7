@@ -352,7 +352,7 @@
 
     .row.mb-5
       .col-lg-12
-        .jumbotron-3.p-2
+        .jumbotron-5.p-2
           p.mb-0 Nota. Tomado de IRENA (2020). https://www.irena.org/Statistics/View-Data-by-Topic/Capacity-and-Generation/Technologies
 
 
@@ -368,7 +368,7 @@
 
     .row.mb-5
       .col-lg-12
-        .jumbotron-3.p-2
+        .jumbotron-5.p-2
           p.mb-0 Nota. Tomado de IRENA (2020). https://www.irena.org/Statistics/View-Data-by-Topic/Capacity-and-Generation/Technologies
 
 

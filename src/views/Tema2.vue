@@ -52,8 +52,10 @@
     #t_2_1.titulo-segundo
       .h3 2.1   La industria del petróleo
 
-    .row.justify-content-center.align-items-center.mb-5
-      img(src='@/assets/curso/images/tema2/img_5.svg',)
+    .row.justify-content-center.align-items-center
+      img(src='@/assets/curso/images/tema2/img_5_1.svg')(style="border-radius: 0; margin-left: 9rem; margin-right: 3rem; background-color: #fff" data-aos="fade")
+    .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #12263F" data-aos="fade")
+      p.text-white El petróleo es un recurso natural de origen fósil que se encuentra de forma líquida en yacimientos subterráneos; para descubrir más sobre este recurso energético y sus aplicaciones se invita a que explore la siguiente información:
 
     p.mb-3 El petróleo pertenece a la familia de los Hidrocarburos y es denominado “oro negro” debido a su color y la importancia en todos los sectores de nuestra sociedad.
 
@@ -263,13 +265,11 @@
     #t_2_2.titulo-segundo
       .h3 2.2   La industria del gas natural
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12(data-aos="zoom-in-down")
-        img(src='@/assets/curso/images/tema2/img_12.svg',)
-
-    .jumbotron.p-4.mb-5
+   
+    .row.justify-content-center.align-items-center
+      img(src='@/assets/curso/images/tema2/img_12.svg')
+    .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #FFCF3F" data-aos="fade")
       p.mb-0 El gas natural es un recurso natural de origen fósil que se encuentra en estado gaseoso en yacimientos subterráneos. Al igual que el petróleo pertenece a la familia de los hidrocarburos, pero difiere en su composición, ya que principalmente contiene metano. En los últimos años se ha venido incentivando el uso de este energético, debido a que es el recurso que genera menos emisiones de gases de efecto invernadero y gases contaminantes comparado con los demás hidrocarburos y el carbón, cuando es utilizado en los procesos de combustión. Otra ventaja adicional sobre el petróleo es que no necesita procesos de tratamiento o refinación para ser utilizado.
-
 
     .row.mb-3.ps-1(data-aos="zoom-in-down")
       .col-lg-2.bg-color-1
@@ -423,12 +423,11 @@
     #t_2_3.titulo-segundo
       .h3 2.3  La industria del carbón
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12(data-aos="zoom-in-down")
-        img(src='@/assets/curso/images/tema2/img_22.svg',)
-
-    .jumbotron-1.p-4.mb-5
+    .row.justify-content-center.align-items-center
+      img(src='@/assets/curso/images/tema2/img_22.svg')
+    .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #12263F" data-aos="fade")
       p.text-white.mb-0 El carbón es una roca de origen vegetal que se encuentra acumulada en yacimientos (lugar de acumulación natural durante millones de años de minerales en grandes cantidades) y que, por su alto contenido en carbono y potencial energético, es usado como combustible. El carbón se extrae por dos métodos principales: la minería subterránea y la minería de superficie. Aunque ha sido una fuente de energía utilizada desde hace muchos años, en la actualidad se pretende disminuir el uso del carbón, debido a que es un combustible fósil que produce gran cantidad de gases de efecto invernadero y material particulado contaminante durante la combustión. 
+
 
     p.mb-3 Se invita a consultar el siguiente video donde se explica con más detalle el origen del carbón.
 
