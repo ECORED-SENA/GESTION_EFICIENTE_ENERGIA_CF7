@@ -11,8 +11,8 @@
 
     figure.my-5(data-aos="fade-right")
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/iPpLdjtIbtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EI-u3xpWPto?start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
     p.mb-3 En la siguiente tabla se muestran algunos de los impactos ambientales estandarizados y clasificados por el medio de afectación, de acuerdo con el Ministerio de Ambiente y Desarrollo Sostenible (2020).
 
     .row.justify-content-center.align-items-center

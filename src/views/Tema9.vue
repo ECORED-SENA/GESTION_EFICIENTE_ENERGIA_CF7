@@ -279,27 +279,27 @@
 
                 .col-md-3
                   a.boton.color-custom-1.mb-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank").mx-1
-                    span Ver video
+                    span Descargar
                     .row
                       .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema1/ico_play.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                        img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
          
                   a.boton.color-custom-1.mx-1(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                    span Ver video
+                    span Descargar
                     .row
                       .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema1/ico_play.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                        img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
     .row.justify-content-center.align-items-center.mb-2
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-custom-10.p-5
+        .col-md.tarjeta.color-custom-10.p-5(data-aos="fade-right") 
           .row.justify-content-center.mb-4
             .col-12
               figure
                 img(src='@/assets/curso/images/tema9/ico_6.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
               
                 p.text-center.text-white La rentabilidad de las empresas comercializadoras dependerá de la diferencia entre el valor al que adquieren la energía y el valor de venta al cliente.
-        .col-md.tarjeta.color-custom-5.p-5
+        .col-md.tarjeta.color-custom-5.p-5(data-aos="fade-left") 
           .row.justify-content-center.mb-4
             .col-12
               figure
@@ -432,14 +432,14 @@
 
       .row.justify-content-center.align-items-center.mt-5
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta.color-custom-10.p-5
+          .col-md.tarjeta.color-custom-10.p-5(data-aos="fade-right") 
             .row.justify-content-center.mb-4
               .col-12
                 figure
                   img(src='@/assets/curso/images/tema9/ico_10.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
                 
                   p.text-center.text-white Los usuarios son las personas naturales o jurídicas quienes reciben y usan en sus domicilios el servicio de electricidad. 
-          .col-md.tarjeta.color-custom-5.p-5
+          .col-md.tarjeta.color-custom-5.p-5(data-aos="fade-left") 
             .row.justify-content-center.mb-4
               .col-12
                 figure

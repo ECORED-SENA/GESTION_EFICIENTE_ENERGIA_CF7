@@ -33,7 +33,7 @@
         
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-custom-4.p-5
+        .col-md.tarjeta.color-custom-4.p-5(data-aos="fade-right")  
           .row.justify-content-center.mb-4
             .col-12
               figure
@@ -41,7 +41,7 @@
               .row.justify-content-center
                 .col-lg-12
                     p.text-center.text-white El petróleo, el gas natural y el carbón se denominan combustibles fósiles debido a que se encuentran en la naturaleza gracias a los procesos de descomposición de la materia orgánica ocurridos hace millones de años. Actualmente, se pretende reemplazar paulatinamente este tipo de energéticos porque su uso genera gases de efecto invernadero, que aumentan la temperatura global del planeta y producen gases contaminantes que afectan la salud de los ecosistemas y de la sociedad en general.
-        .col-md.tarjeta.color-custom-5.p-5
+        .col-md.tarjeta.color-custom-5.p-5(data-aos="fade-left") 
           .row.justify-content-center.mb-4
             .col-12
               figure
@@ -52,7 +52,7 @@
     #t_2_1.titulo-segundo
       .h3 2.1   La industria del petróleo
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-down")
       img(src='@/assets/curso/images/tema2/img_5_1.svg')(style="border-radius: 0; margin-left: 9rem; margin-right: 3rem; background-color: #fff" data-aos="fade")
     .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #12263F" data-aos="fade")
       p.text-white El petróleo es un recurso natural de origen fósil que se encuentra de forma líquida en yacimientos subterráneos; para descubrir más sobre este recurso energético y sus aplicaciones se invita a que explore la siguiente información:
