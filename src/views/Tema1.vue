@@ -239,7 +239,7 @@
                   img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Segunda ley de la termodinámica
-                  p.mb-1.text-white se presentan en primer lugar algunos conceptos relacionados con la segunda ley, como depósitos, máquinas térmicas, entre otros, en los postulados de la segunda ley se presenta el ciclo de Carnot como ciclo ideal, y algunas máquinas como refrigeradores y bombas de calor.
+                  p.mb-1.text-white Se presentan en primer lugar algunos conceptos relacionados con la segunda ley, como depósitos, máquinas térmicas, entre otros, en los postulados de la segunda ley se presenta el ciclo de Carnot como ciclo ideal, y algunas máquinas como refrigeradores y bombas de calor.
                 .col-md-auto
                   a.boton.color-custom-1(:href="obtenerLink('downloads/OKEst_Anexo 1.5. La segunda ley de la termodinámica.pdf')" target="_blank")
                     span Descargar 

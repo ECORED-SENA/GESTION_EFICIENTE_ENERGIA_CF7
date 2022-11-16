@@ -391,12 +391,6 @@
         .list
           .list__item
             .list__item__icon
-              img.img-a(src="@/assets/curso/images/tema2/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;").img-fluid  
-          .list__txt  
-            p.m-top.mx-2 En la gráfica anterior se observan los datos correspondientes a tres variables:
-        .list
-          .list__item
-            .list__item__icon
               img.img-a(src="@/assets/curso/images/tema2/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;")
           .list__txt    
             p.m-top.mx-2 Reservas probadas de gas natural en giga pies cúbicos (Gpc).

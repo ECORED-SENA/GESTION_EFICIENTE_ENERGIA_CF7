@@ -370,7 +370,7 @@ export default {
     },
     {
       referencia:
-        'Agencia Nacional de Hidrocarburos ANH (2021). Datos y estadísticas',
+        'Agencia Nacional de Hidrocarburos ANH (2021). Datos y estadísticas.',
       link: 'https://www.anh.gov.co/datos-estadisticas',
     },
     {
@@ -675,7 +675,7 @@ export default {
       referencia:
         'Tecnológico de Monterrey. (2018). El calor y sus mecanismos de transferencia [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=hq5M-lTauF',
+      link: 'https://www.youtube.com/watch?app=desktop&v=hq5M-lTauFI',
     },
     {
       tema: 'Ciclos termodinámicos',
@@ -1125,7 +1125,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Mayra Alejandra Alvarez ',
+        nombre: 'Melina Tatiana Quintero Rodríguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

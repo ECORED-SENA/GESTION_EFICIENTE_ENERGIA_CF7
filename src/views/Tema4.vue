@@ -27,7 +27,7 @@
                   h5.text-white Energía hidroeléctrica
                   p.mb-1.text-white Descubra más sobre la tecnología utilizada para el aprovechamiento de esta energía y sus aplicaciones.
                 .col-md-auto
-                  a.boton.color-custom-1(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-custom-1(:href="obtenerLink('downloads/OKEst_Anexo D. Energía hidroeléctrica.pdf')" target="_blank")
                     span Descargar 
                     .row
                       .col-auto
@@ -168,7 +168,7 @@
           PasosB.color-acento-botones
             .row(titulo="1. Proceso de tamizado")
               .col-md-6.mb-4.mb-md-0
-                p.mb-3 consiste en la caracterización del proyecto de forma integral, analizando las actividades a desarrollar durante todas las etapas (construcción, operación, cierre).
+                p.mb-3 Consiste en la caracterización del proyecto de forma integral, analizando las actividades a desarrollar durante todas las etapas (construcción, operación, cierre).
 
                 p.mb-0 Posteriormente se procede a realizar la identificación y determinación de cada uno de los impactos ambientales que el proyecto puede ocasionar.
             
@@ -190,7 +190,7 @@
             .row(titulo="3. Evaluación de impactos y mitigación")
               .col-md-6.mb-4.mb-md-0
                 
-                p.mb-3 consiste en la realización de un análisis detallado de los impactos ambientales en todos los medios.
+                p.mb-3 Consiste en la realización de un análisis detallado de los impactos ambientales en todos los medios.
 
                 p.mb-3 Se procede a realizar la cuantificación de los impactos tomando como base las condiciones actuales del medio (sin proyecto) y se establece una línea base para el seguimiento
 
@@ -228,7 +228,7 @@
             .row(titulo="7. Monitoreo")
               .col-md-6.mb-4.mb-md-0
     
-                p.mb-3 una vez sea aprobada la licencia ambiental, el proyecto puede iniciar sus actividades.
+                p.mb-3 Una vez sea aprobada la licencia ambiental, el proyecto puede iniciar sus actividades.
 
                 p.mb-0 Durante la etapa de monitoreo se debe asegurar que las medidas de mitigación y los planes de contingencia son aplicados correctamente y se gestionan los impactos ambientales negativos ocasionados por el proyecto, además de registrar toda la información y documentación para ser revisada por la autoridad ambiental.
             

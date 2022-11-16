@@ -211,7 +211,7 @@
               .col-lg-2
                 img(src='@/assets/curso/images/tema6/ico_7.svg' alt='', style="width:150px; display:block; margin:auto 0;")
               .col-12.col-lg-10.mb-4.mb-lg-0
-                p.mb-0  consiste en el cálculo de las emisiones de GEI de todo un país teniendo en cuenta el resultado de todas las actividades humanas realizadas al interior de la nación y adicionalmente los recursos naturales con los que cuenta para almacenamiento de GEI.
+                p.mb-0  Consiste en el cálculo de las emisiones de GEI de todo un país teniendo en cuenta el resultado de todas las actividades humanas realizadas al interior de la nación y adicionalmente los recursos naturales con los que cuenta para almacenamiento de GEI.
 
           .row(titulo='Huella de carbono de una persona' numero='4')
             .row.justify-content-center.align-items-star

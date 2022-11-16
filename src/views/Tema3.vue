@@ -101,9 +101,7 @@
       .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
         img.mx-0(src="@/assets/curso/images/tema3/img_4.svg").mb-3 
       .col-12.col-lg-9(data-aos="fade-left") 
-        p.mb-3 Es la energía obtenida a partir del aprovechamiento de la radiación electromagnética procedente del sol. El aprovechamiento puede ser de dos formas: como fuente de calor (energía solar térmica) y como fuente de electricidad (energía solar fotovoltaica).
-
-        p.mb-0 Es importante mencionar que según como sea la manera de recolectar, convertir y transferir la energía del sol las tecnologías son de dos tipos: pasivas y activas. Las pasivas distribuyen y almacenan el calor de manera natural y sin transformaciones, a partir de estrategias que favorezcan el aprovechamiento de la luz solar, por ejemplo, en los edificios se adapta la orientación de las ventanas de manera que se pueda aprovechar la luz natural. Las activas aprovechan la energía mediante dispositivos fotovoltaicos y colectores solares.
+        p.mb-3 Es la energía obtenida al aprovechar la velocidad de las corrientes de aire que se producen debido al calentamiento desigual de la superficie de la Tierra. Ahora bien, ¿cómo se aprovecha el viento a nivel local para generar energía? Todo comienza a partir del Sol, durante el día el área continental se calienta más rápidamente que el mar y las zonas bajas. Cuando el aire en tierra firme se calienta se vuelve menos denso y se eleva, generando el flujo de aire desde el mar hacia el litoral. Este movimiento del aire es lo que se conoce como viento; durante la noche el aire frío tiende a bajar y el flujo es en sentido contrario. 
 
     
     p.mb-3.text-center Complemente su estudio revisando la siguiente información e interaccione con un mapa de viento.

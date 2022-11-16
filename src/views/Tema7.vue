@@ -164,7 +164,7 @@
               img(src='@/assets/curso/images/tema7/ico_7.svg' alt='').mb-3
             .col-lg-9
               h3 Inspección
-              p.mt-1 recopila y valida la información jurídica, técnica, contable, comercial y administrativa de las empresas prestadoras del servicio.
+              p.mt-1 Recopila y valida la información jurídica, técnica, contable, comercial y administrativa de las empresas prestadoras del servicio.
         hr 
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
