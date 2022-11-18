@@ -278,13 +278,13 @@
                   p.mb-3.text-white Concepto de tarifa y sus componentes. 
 
                 .col-md-3
-                  a.boton.color-custom-1.mb-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank").mx-1
+                  a.boton.color-custom-1.mb-3(href="https://www.youtube.com/watch?v=spfmTv6SqRY" target="_blank").mx-1
                     span Descargar
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
          
-                  a.boton.color-custom-1.mx-1(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.boton.color-custom-1.mx-1(href="https://youtu.be/7MyAXAkP048" target="_blank")
                     span Descargar
                     .row
                       .col-auto

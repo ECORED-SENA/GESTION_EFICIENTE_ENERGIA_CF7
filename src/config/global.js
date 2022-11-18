@@ -366,12 +366,13 @@ export default {
       referencia:
         'Agencia Nacional de Hidrocarburos ANH (2018). La cadena del sector hidrocarburos. ',
       link:
-        'https://www.anh.gov.co/portalregionalizacion/Paginas/LA-CADENA-DEL-SECTOR-HIDROCARBUROS.aspx',
+        'https://www.anh.gov.co/documents/722/cadenaProductivaHidrocarburos.pdf',
     },
     {
       referencia:
         'Agencia Nacional de Hidrocarburos ANH (2021). Datos y estadísticas.',
-      link: 'https://www.anh.gov.co/datos-estadisticas',
+      link:
+        'https://www.anh.gov.co/es/operaciones-y-regal%C3%ADas/datos-y-estadisticas/',
     },
     {
       referencia:

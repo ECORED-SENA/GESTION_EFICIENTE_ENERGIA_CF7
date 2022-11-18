@@ -136,7 +136,7 @@
                   h5.text-white Mapa de viento
                   p.mb-1.text-white.text-small Puede ver un mapa de viento global interactivo y en tiempo real.
                 .col-md-auto
-                  a.boton.color-custom-1(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-custom-1(href="https://www.windy.com/?8.016,-74.180,7,m:dTsad2I." target="_blank")
                     span Descargar 
                     .row
                       .col-auto
