@@ -90,11 +90,12 @@
                   h5.text-white XM
                   p.mb-1.text-white se puede obtener mayor información del sector eléctrico y de XM visitando su página web:
                 .col-md-auto
-                  a.boton.color-custom-1(:href="obtenerLink('downloads/https://www.enel.com.co/content/dam/enel-co/espa%C3%B1ol/personas/1-11-5-normatividad-y-seguridad/4--contrato-de-condiciones-uniformes/contrato-servicio-publico-energia-electrica-2021.pdf')" target="_blank")
+                  a.boton.color-custom-1(href="https://www.enel.com.co/content/dam/enel-co/espa%C3%B1ol/personas/1-11-5-normatividad-y-seguridad/4--contrato-de-condiciones-uniformes/contrato-servicio-publico-energia-electrica-2021.pdf" target="_blank")
                     span Descargar 
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+
 
     p.mb-3 <b>Segmentación de las transacciones en el MEM</b>
 

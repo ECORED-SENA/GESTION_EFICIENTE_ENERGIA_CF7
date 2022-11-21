@@ -419,7 +419,7 @@ export default {
     },
     {
       referencia:
-        'Delgadillo, S. (2014). Termodinámica básica: 1er curso. Grupo Editorial Éxodo',
+        'Delgadillo, S. (2014). Termodinámica básica: 1er curso. Grupo Editorial Éxodo.',
       link:
         ' https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/128554',
     },
@@ -453,13 +453,13 @@ export default {
     },
     {
       referencia:
-        'IDEAM, PNUD. (2015). Cartilla Inventario Nacional de Gases de Efecto Invernadero (GEI) de Colombia. Tercera comunicación nacional deL cambio climático de Colombia',
+        'IDEAM, PNUD. (2015). Cartilla Inventario Nacional de Gases de Efecto Invernadero (GEI) de Colombia. Tercera comunicación nacional deL cambio climático de Colombia.',
       link:
         'http://documentacion.ideam.gov.co/openbiblio/bvirtual/023421/cartilla_INGEI.pdf',
     },
     {
       referencia:
-        'International Institute for Sustainable Development. (2021). EIA: 7 pasos',
+        'International Institute for Sustainable Development. (2021). EIA: 7 pasos.',
       link: ' https://www.iisd.org/learning/eia/es/eia-7-steps/',
     },
     {
@@ -474,7 +474,7 @@ export default {
     },
     {
       referencia:
-        'Jiménez, J. A. y Gutiérrez, C. (2015). Termodinámica. Grupo Editorial Patria',
+        'Jiménez, J. A. y Gutiérrez, C. (2015). Termodinámica. Grupo Editorial Patria.',
       link:
         ' https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39466',
     },
@@ -519,7 +519,7 @@ export default {
     },
     {
       referencia:
-        'Schallenberg, J., Piernavieja, G., Hernández, C., Unamunzaga, P., García, R., Díaz, M., Cabrera, D., Martel, G., Pardilla, J., y Subiela, V. (2008). Energías renovables y eficiencia energética (Primera ed.). Instituto Tecnológico de Canarias, S.A',
+        'Schallenberg, J., Piernavieja, G., Hernández, C., Unamunzaga, P., García, R., Díaz, M., Cabrera, D., Martel, G., Pardilla, J., y Subiela, V. (2008). Energías renovables y eficiencia energética (Primera ed.). Instituto Tecnológico de Canarias, S.A.',
       link:
         ' https://www.cienciacanaria.es/files/Libro-de-energias-renovables-y-eficiencia-energetica.pdf',
     },
@@ -547,7 +547,7 @@ export default {
     },
     {
       referencia:
-        'The Intergovernmental Panel on Climate Change. (2011). Fuentes de energía renovables y mitigación del cambio climático. IPCC',
+        'The Intergovernmental Panel on Climate Change. (2011). Fuentes de energía renovables y mitigación del cambio climático. IPCC.',
       link:
         ' https://www.ipcc.ch/site/assets/uploads/2018/03/srren_report_es-1.pdf',
     },
@@ -558,13 +558,13 @@ export default {
     },
     {
       referencia:
-        'Unidad de Planeación Minero-Energética. (2004). Una visión del mercado eléctrico colombiano. UPME ',
+        'Unidad de Planeación Minero-Energética. (2004). Una visión del mercado eléctrico colombiano. UPME.',
       link:
         'http://www.upme.gov.co/Docs/Vision_Mercado_Electrico_Colombiano.pdf',
     },
     {
       referencia:
-        'Unidad de Planeación Minero-Energética. (2019). Primer balance de energía útil para Colombia. UPME',
+        'Unidad de Planeación Minero-Energética. (2019). Primer balance de energía útil para Colombia. UPME.',
       link:
         'https://www1.upme.gov.co/Hemeroteca/Paginas/estudio-primer-balance-energia-util-para-Colombia.aspx',
     },
@@ -697,7 +697,7 @@ export default {
       referencia:
         'FuelsEurope (2014). Descubra los múltiples usos del petróleo y sus manifestaciones en la vida cotidiana [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=yCnO7S3V2wE',
+      link: 'https://www.youtube.com/watch?v=YwLm2NGsEuY',
     },
     {
       tema: 'Infraestructura / industria del petróleo',
@@ -767,7 +767,7 @@ export default {
       referencia:
         'ACCIONA. (2015). ¿Qué es la energía solar fotovoltaica? [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=h20bJDZCaC',
+      link: 'https://www.youtube.com/watch?v=HJDEGxUaWxU',
     },
     {
       tema: 'Energía solar fotovoltaica - sistema aislado',
@@ -1127,7 +1127,7 @@ export default {
       },
       {
         nombre: 'Melina Tatiana Quintero Rodríguez',
-        cargo: 'Validación de diseño y contenido',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
