@@ -38,7 +38,7 @@
                 p.mb-0  Precios de la electricidad competitivos.
        
       .col-lg-6(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema8/img_1.png')
+        img(src='@/assets/curso/images/tema8/img_1.png').mb-3
 
     p.mb-3 Cuando se habla de mercado en términos económicos se hace referencia a un espacio en donde se realizan transacciones e intercambio de bienes, productos o servicios. Dichas acciones se pueden realizar entre individuos o entre diferentes tipos de organizaciones. En el sector eléctrico, dicho espacio se denomina mercado eléctrico mayorista (MEM) y en él se realizan transacciones de compra y venta de grandes bloques de energía eléctrica entre los agentes de la cadena del sector. Amplíe la información revisando el siguiente recurso:
 
@@ -53,26 +53,25 @@
     p.mb-3 Además de los agentes mencionados, participan en el MEM los siguientes órganos de operación y administración:
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
+    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema8/1.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
-            .p-4
-              p.text-center.mb-4 Centro Nacional de Despacho (CND).
-
+            .p-3
+              p.text-center <b>Centro Nacional de Despacho (CND).</b>
       .col-md-6.col-lg.mb-5.mb-lg-0  
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema8/2.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-8
-            .p-4
-              p.text-center.mb-0 Administrador del Sistema de Intercambios Comerciales (ASIC).
+            .p-3
+              p.text-center <b>Administrador del Sistema de Intercambios Comerciales (ASIC).</b>
       .col-md-6.col-lg.mb-5.mb-lg-0   
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema8/3.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-7
-            .p-4            
-              p.text-center.mb-0 Liquidador y Administrador de Cuentas de cargos por Uso de las Redes del SIN (LAC).
+            .p-3        
+              p.text-center <b>Liquidador y Administrador de Cuentas de cargos por Uso de las Redes del SIN (LAC).</b>
 
 
 
@@ -122,8 +121,8 @@
                         img.mx-2(src="@/assets/curso/images/tema1/ico_play.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
     Separador 
     
-    #t8_1.titulo-segundo
-      .h3 8.1  Bolsa de energía o mercado de corto plazo
+    #t_8_1.titulo-segundo
+      .h2 8.1  Bolsa de energía o mercado de corto plazo
 
     .row.justify-content-center.align-items-star.p-3
       .col-12.col-lg-6(data-aos="fade-right") 
@@ -158,8 +157,8 @@
 
     Separador 
     
-    #t8_2.titulo-segundo
-      .h3 8.2 Mercado de contratos bilaterales o mercado de mediano y largo plazo
+    #t_8_2.titulo-segundo
+      .h2 8.2 Mercado de contratos bilaterales o mercado de mediano y largo plazo
 
     p.mb-3 Los contratos bilaterales son acuerdos directos que se realizan entre un comercializador y un generador, donde se pacta libremente la cantidad de energía, el precio de esta, el tiempo de duración y el tipo de contrato. Por lo general, este tipo de contratos es realizado entre empresas que tienen alto volumen de consumo o demanda de energía y quieren evitar las fluctuaciones del mercado de corto plazo. También se utiliza para apalancar económicamente proyectos de generación con energías renovables. A pesar de que los acuerdos bilaterales son libres, estos también se encuentran  regulados y tienen obligaciones con el administrador del sistema de intercambios XM.
 
@@ -185,28 +184,46 @@
 
     Separador 
     
-    #t8_3.titulo-segundo
-      .h3 8.3 Regulación y disposiciones legales
+    #t_8_3.titulo-segundo
+      .h2 8.3 Regulación y disposiciones legales
     
     p.mb-3 La Comisión de Regulación de Energía y Gas (CREG) es la entidad encargada por el Gobierno Nacional para generar la reglamentación legal del funcionamiento del MEM. En general las regulaciones van orientadas a dos objetivos principales:
 
-    .contenedor-flecha-1.my-5
+    .contenedor-flecha-1.my-5.d-none.d-lg-block
       .contenedor-flecha-2
         .row.justify-content-center.align-items-center
           .col-lg-4(data-aos="zoom-in-down")
             .jumbotron-13.p-4.mb-2
               .row.justify-content-center.align-items-center
-                .col-6.col-lg-4
+                .col-4.col-lg-4
                   img(src="@/assets/curso/images/tema8/ico_4.svg")
               .row.justify-content-center.align-items-center
                 p.text-white.mt-5 Garantizar la libre competencia en las transacciones entre generadores y comercializadores.
           .col-lg-4(data-aos="zoom-in-down")
             .jumbotron-14.p-4
               .row.justify-content-center.align-items-center
-                .col-6.col-lg-4
+                .col-4.col-lg-4
                   img(src="@/assets/curso/images/tema8/ico_5.svg")
               .row.justify-content-center.align-items-center
                 p.text-white.mt-5 Regular los monopolios en la cadena de la energía donde no es posible la libre competencia.
+                .contenedor-flecha-1.my-5
+
+    .row.d-block.d-lg-none.mb-3
+      .row.justify-content-center.align-items-center
+        .col-lg-4(data-aos="zoom-in-down")
+          .jumbotron-13.p-4.mb-2
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-4
+                img(src="@/assets/curso/images/tema8/ico_4.svg")
+            .row.justify-content-center.align-items-center
+              p.text-white.mt-5 Garantizar la libre competencia en las transacciones entre generadores y comercializadores.
+        .col-lg-4(data-aos="zoom-in-down")
+          .jumbotron-14.p-4
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-4
+                img(src="@/assets/curso/images/tema8/ico_5.svg")
+            .row.justify-content-center.align-items-center
+              p.text-white.mt-5 Regular los monopolios en la cadena de la energía donde no es posible la libre competencia.
 
     p.mb-5 A continuación, se muestran algunas de las reglas más relevantes del MEM y las resoluciones de la CREG que las establecen y los enlaces para su consulta:
 

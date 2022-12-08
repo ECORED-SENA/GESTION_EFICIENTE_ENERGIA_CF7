@@ -36,7 +36,7 @@
     Separador 
   
     #t_4_1.titulo-segundo
-      .h3 4.1 Impactos ambientales de las fuentes de generación de energía
+      .h2 4.1 Impactos ambientales de las fuentes de generación de energía
 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-6(data-aos="fade-right")
@@ -91,7 +91,7 @@
     Separador 
   
     #t_4_2.titulo-segundo
-      .h3 4.2 Evaluación del impacto ambiental
+      .h2 4.2 Evaluación del impacto ambiental
     
 
     .row.justify-content-center.align-items-star.mb-5
@@ -166,8 +166,9 @@
       .col-lg-12
         .tarjeta.tarjeta--azul.p-4.mb-5
           PasosB.color-acento-botones
-            .row(titulo="1. Proceso de tamizado")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
+                h4 1. Proceso de tamizado
                 p.mb-3 Consiste en la caracterización del proyecto de forma integral, analizando las actividades a desarrollar durante todas las etapas (construcción, operación, cierre).
 
                 p.mb-0 Posteriormente se procede a realizar la identificación y determinación de cada uno de los impactos ambientales que el proyecto puede ocasionar.
@@ -178,8 +179,9 @@
       
 
 
-            .row(titulo="2. Proceso de selección")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
+                h4 2. Proceso de selección
                 p.mb-0  En esta etapa se establecen los límites del proyecto y se seleccionan los impactos ambientales más significativos, y se eliminan los impactos que tienen efectos mínimos en el ambiente.
             
               .col-md-6
@@ -187,9 +189,9 @@
                   img(src='@/assets/curso/images/tema4/img_4.png', alt='Texto que describa la imagen')
     
 
-            .row(titulo="3. Evaluación de impactos y mitigación")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
-                
+                h4 3. Evaluación de impactos y mitigación
                 p.mb-3 Consiste en la realización de un análisis detallado de los impactos ambientales en todos los medios.
 
                 p.mb-3 Se procede a realizar la cuantificación de los impactos tomando como base las condiciones actuales del medio (sin proyecto) y se establece una línea base para el seguimiento
@@ -200,34 +202,36 @@
                 figure
                   img(src='@/assets/curso/images/tema4/img_5.png', alt='Texto que describa la imagen')
               
-            .row(titulo="4. Manejo de Impactos")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
+                h4 4. Manejo de Impactos
                 p En esta etapa se realiza la planificación de las acciones a ejecutar durante todo el ciclo de vida del proyecto, y se determinan los indicadores para el cumplimiento de las medidas de reducción de impactos negativos.
             
               .col-md-6
                 figure
                   img(src='@/assets/curso/images/tema4/img_6.png', alt='Texto que describa la imagen')
 
-            .row(titulo="5. Informe de EIA")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
+                h4 5. Informe de EIA
                 p.mb-0 Consiste en recopilar toda la información de las etapas anteriores y condensarla en un solo documento estructurado de tal forma que se expliquen las características del proyecto y los resultados del análisis en cada una de las etapas anteriores.
             
               .col-md-6
                 figure
                   img(src='@/assets/curso/images/tema4/img_7.png', alt='Texto que describa la imagen')
 
-            .row(titulo="6. Revisión y licenciamiento")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
-    
+                h4 6. Revisión y licenciamiento
                 p.mb-0 En esta etapa se radica la solicitud ante la autoridad ambiental para el estudio y revisión de la documentación, y posterior otorgamiento de la licencia ambiental. 
             
               .col-md-6
                 figure
                   img(src='@/assets/curso/images/tema4/img_8.png', alt='Texto que describa la imagen')
 
-            .row(titulo="7. Monitoreo")
+            .row(titulo="")
               .col-md-6.mb-4.mb-md-0
-    
+                h4 7. Monitoreo
                 p.mb-3 Una vez sea aprobada la licencia ambiental, el proyecto puede iniciar sus actividades.
 
                 p.mb-0 Durante la etapa de monitoreo se debe asegurar que las medidas de mitigación y los planes de contingencia son aplicados correctamente y se gestionan los impactos ambientales negativos ocasionados por el proyecto, además de registrar toda la información y documentación para ser revisada por la autoridad ambiental.

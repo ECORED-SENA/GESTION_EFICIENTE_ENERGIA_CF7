@@ -21,8 +21,8 @@
     
     Separador 
     
-    #t7_1.titulo-segundo
-      .h3 7.1 Generalidades
+    #t_7_1.titulo-segundo
+      .h2 7.1 Generalidades
 
     p.mb-3 Según la Superintendencia de Servicios Públicos (2015) la descripción para cada uno de los servicios públicos domiciliarios es la siguiente:
 
@@ -76,8 +76,8 @@
 
     Separador 
     
-    #t7_2.titulo-segundo
-      .h3 7.2 Marco normativo
+    #t_7_2.titulo-segundo
+      .h2 7.2 Marco normativo
 
     .row.justify-content-center.align-items-star.mb-5
       .col-6.col-lg-3(data-aos="fade-left")
@@ -125,8 +125,8 @@
 
     Separador 
     
-    #t7_3.titulo-segundo
-      .h3 7.3 Regulación de los servicios públicos domiciliarios
+    #t_7_3.titulo-segundo
+      .h2 7.3 Regulación de los servicios públicos domiciliarios
 
     .row.justify-content-center.align-items-star.mb-5.p-3
       .col-lg-6(data-aos="fade-left")
@@ -151,8 +151,8 @@
 
     Separador 
     
-    #t7_4.titulo-segundo
-      .h3 7.4 Vigilancia de los servicios públicos domiciliarios
+    #t_7_4.titulo-segundo
+      .h2 7.4 Vigilancia de los servicios públicos domiciliarios
 
     p.mb-3 El Gobierno Nacional a través de la Ley 142 de 1994 crea la entidad denominada Superintendencia de Servicios Públicos Domiciliarios (Superservicios) adscrita al Departamento Nacional de Planeación (DNP), con el fin de realizar la inspección, vigilancia y control de las empresas que prestan los servicios públicos domiciliarios. Otra importante función que realiza la Superservicios es la protección de los derechos y promoción de los deberes de los usuarios. A continuación, se presenta con mayor detalle cada función:
 
@@ -161,7 +161,7 @@
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_7.svg' alt='').mb-3
+              img(src='@/assets/curso/images/tema7/ico_7.svg' , alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
               h3 Inspección
               p.mt-1 Recopila y valida la información jurídica, técnica, contable, comercial y administrativa de las empresas prestadoras del servicio.
@@ -169,7 +169,7 @@
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_8.svg' alt='').mb-3
+              img(src='@/assets/curso/images/tema7/ico_8.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
               h3 Vigilancia
               p.mt-1 Monitorea la operación de las empresas prestadoras del servicio para determinar alertas que pongan en riesgo la prestación del servicio.
@@ -177,7 +177,7 @@
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_9.svg' alt='').mb-3
+              img(src='@/assets/curso/images/tema7/ico_9.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
               h3 Control
               p.mt-1 Aplica las medidas administrativas a las empresas que incumplan la normatividad vigente, para que sean corregidas como protección para la correcta prestación del servicio.
@@ -185,7 +185,7 @@
         .jumbotron-12.p-4.mb-3 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_10.svg' alt='').mb-3
+              img(src='@/assets/curso/images/tema7/ico_10.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
               h3 Protección de los usuarios
               p.mt-1 Atiende las consultas y orienta para la presentación de peticiones, quejas y reclamos a las empresas prestadoras del servicio. Adicionalmente resuelve (en segunda instancia) las reclamaciones de los usuarios y sanciona a las empresas que no dan respuesta a tiempo a las reclamaciones.
@@ -193,7 +193,7 @@
         .jumbotron-12.p-4
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_11.svg' alt='').mb-3
+              img(src='@/assets/curso/images/tema7/ico_11.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
               h3 Promoción de los deberes de los usuarios
               p.mt-1 Informa a los usuarios y comunidades sobre los derechos y deberes que tienen frente al servicio público domiciliario recibido.
@@ -223,11 +223,11 @@
 
     Separador 
     
-    #t7_5.titulo-segundo
-      .h3 7.5 Contrato de condiciones uniformes
+    #t_7_5.titulo-segundo
+      .h2 7.5 Contrato de condiciones uniformes
 
     .row.justify-content-center.align-items-star.mb-5.p-3
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         p.mb-3 Según la Superintendencia de Servicios Públicos (2015) el Contrato de condiciones uniformes es un documento suscrito entre el usuario y la empresa que presta el servicio en donde se acuerdan las condiciones de calidad y eficiencia en la prestación del servicio y se establecen los derechos y deberes de los usuarios y la empresa, lo anterior a cambio de un precio cobrado mediante una factura del servicio.
 
         p.mb-3 Se denomina “uniforme” debido a que las condiciones pactadas en este contrato son iguales o uniformes para todos los usuarios que reciben este servicio.   
@@ -237,7 +237,7 @@
         p.mb-3 Complemente su estudio revisando el siguiente video y un contrato de condiciones:
         
 
-      .col-6.col-lg-6(data-aos="fade-right")
+      .col-6.col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/images/tema7/img_6.svg')    
 
 

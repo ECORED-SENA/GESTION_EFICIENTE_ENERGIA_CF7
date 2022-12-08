@@ -9,8 +9,8 @@
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.mb-0.cs.mg-top-1
     .row.justify-content-center.align-items-star.p-3
-      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-right") 
-        img(src="@/assets/curso/images/tema3/img_1.svg").mb-3 
+      .col-12.col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right") 
+        img(src="@/assets/curso/images/tema3/img_1.svg").mb-0
       .col-12.col-lg-8(data-aos="fade-left") 
         p.mb-3 Con el fin de reducir la dependencia de los combustibles fósiles y mitigar los impactos del cambio climático durante la última década se han evidenciado grandes cambios en el contexto energético, desde la mejora en eficiencias de conversión de energía hasta la adopción de tecnologías alternativas innovadoras para satisfacer las nuevas demandas de energía, siendo el uso de las energías renovables uno de los principales impulsores de este cambio. Esta sección contiene el desarrollo del tema 3 – energía renovable, cuyo objetivo es presentar generalidades de las energías renovables, ventajas y desventajas y, las principales tecnologías que existen actualmente a nivel mundial.
   
@@ -43,11 +43,11 @@
     Separador 
     
     #t_3_1.titulo-segundo
-      .h3 3.1 Energía solar
+      .h2 3.1 Energía solar
 
-    .row.justify-content-center.align-items-star.fondo-3.p-3.mb-3
+    .row.justify-content-center.align-items-center.fondo-3.p-3.mb-3
       .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right") 
-        img(src="@/assets/curso/images/tema3/img_3.svg").mb-3 
+        img(src="@/assets/curso/images/tema3/img_3.svg").mb-0
       .col-12.col-lg-9(data-aos="fade-left")
         p.mb-3 Es la energía obtenida a partir del aprovechamiento de la radiación electromagnética procedente del sol. El aprovechamiento puede ser de dos formas: como fuente de calor (energía solar térmica) y como fuente de electricidad (energía solar fotovoltaica).
 
@@ -94,14 +94,16 @@
     Separador 
     
     #t_3_2.titulo-segundo
-      .h3 3.2 Energía eólica
+      .h2 3.2 Energía eólica
 
 
     .row.justify-content-between.align-items-center.fondo-4.p-2.mb-3
-      .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
-        img.mx-0(src="@/assets/curso/images/tema3/img_4.svg").mb-3 
+      .col-md-3.col-lg.mb-0.mb-lg-0.ps-0.pe-0(data-aos="fade-right")  
+        img.left(src="@/assets/curso/images/tema3/img_4.svg").mb-0
       .col-12.col-lg-9(data-aos="fade-left") 
-        p.mb-3 Es la energía obtenida al aprovechar la velocidad de las corrientes de aire que se producen debido al calentamiento desigual de la superficie de la Tierra. Ahora bien, ¿cómo se aprovecha el viento a nivel local para generar energía? Todo comienza a partir del Sol, durante el día el área continental se calienta más rápidamente que el mar y las zonas bajas. Cuando el aire en tierra firme se calienta se vuelve menos denso y se eleva, generando el flujo de aire desde el mar hacia el litoral. Este movimiento del aire es lo que se conoce como viento; durante la noche el aire frío tiende a bajar y el flujo es en sentido contrario. 
+        p.mb-3 Es la energía obtenida al aprovechar la velocidad de las corrientes de aire que se producen debido al calentamiento desigual de la superficie de la Tierra. Ahora bien, ¿cómo se aprovecha el viento a nivel local para generar energía? Todo comienza a partir del Sol, durante el día el área continental se calienta más rápidamente que el mar y las zonas bajas.
+
+        p.mb-0 Cuando el aire en tierra firme se calienta se vuelve menos denso y se eleva, generando el flujo de aire desde el mar hacia el litoral. Este movimiento del aire es lo que se conoce como viento; durante la noche el aire frío tiende a bajar y el flujo es en sentido contrario.
 
     
     p.mb-3.text-center Complemente su estudio revisando la siguiente información e interaccione con un mapa de viento.
@@ -145,11 +147,11 @@
     Separador 
   
     #t_3_3.titulo-segundo
-      .h3 3.3 Energía hidroeléctrica
+      .h2 3.3 Energía hidroeléctrica
 
     .row.justify-content-between.align-items-center.fondo-5.p-2.mb-3
-      .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
-        img.mx-0(src="@/assets/curso/images/tema3/img_5.svg").mb-3 
+      .col-md-3.col-lg.mb-0.mb-lg-0(data-aos="fade-right")  
+        img.mx-0(src="@/assets/curso/images/tema3/img_5.svg").mb-3
       .col-12.col-lg-9(data-aos="fade-left") 
         p.mb-3 Es la energía obtenida a partir del movimiento del agua y su caída desde cierta altura. La energía cinética de las corrientes y la energía potencial gravitacional de los saltos de agua se transforman en energía cinética mediante el accionamiento de una máquina rotatoria que hace funcionar un generador, convirtiendo la energía del movimiento en energía eléctrica.
 
@@ -179,11 +181,11 @@
     Separador 
   
     #t_3_4.titulo-segundo
-      .h3 3.4 Energía geotérmica
+      .h2 3.4 Energía geotérmica
 
 
-    .row.justify-content-center.align-items-star.fondo-3.p-3.mb-3
-      .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
+    .row.justify-content-center.align-items-center.fondo-3.p-3.mb-3
+      .col-md-3.col-lg.mb-0.mb-lg-0(data-aos="fade-right")  
         img(src="@/assets/curso/images/tema3/img_6.svg").mb-3 
       .col-12.col-lg-9(data-aos="fade-left") 
         p.mb-3 Es la energía obtenida al aprovechar la energía térmica contenida en el interior de la Tierra. La energía térmica se origina debido a la diferencia de temperaturas entre la superficie terrestre y el núcleo interno (cercana a 7000 °C), provocando un flujo continuo de calor desde el interior de la Tierra hacia el exterior.
@@ -233,11 +235,11 @@
     Separador 
   
     #t_3_5.titulo-segundo
-      .h3 3.5 Energía oceánica
+      .h2 3.5 Energía oceánica
 
 
     .row.justify-content-center.align-items-star.fondo-6.p-3.mb-3
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
+      .col-8.col-md-3.col-lg.mb-0.mb-lg-0(data-aos="fade-right")  
         img(src="@/assets/curso/images/tema3/img_7.svg").mb-3 
       .col-12.col-lg-9(data-aos="fade-left") 
         p.mt-5 Es la energía obtenida del océano; el mar provee formas de energía que se pueden explotar de las siguientes fuentes:
@@ -268,10 +270,10 @@
     Separador 
   
     #t_3_6.titulo-segundo
-      .h3 3.6 Energía de la biomasa
+      .h2 3.6 Energía de la biomasa
 
-    .row.justify-content-center.align-items-star.fondo-3.p-3.mb-3
-      .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
+    .row.justify-content-center.align-items-center.fondo-3.p-3.mb-3
+      .col-md-3.col-lg.mb-0.mb-lg-0(data-aos="fade-right")  
         img(src="@/assets/curso/images/tema3/img_6.svg").mb-3 
       .col-12.col-lg-9(data-aos="fade-left") 
         p.mb-3 Es la energía obtenida a partir del aprovechamiento de la biomasa. La biomasa es la materia de origen orgánico, vegetal o animal, que se puede utilizar con propósitos energéticos.
@@ -303,10 +305,10 @@
     Separador 
   
     #t_3_7.titulo-segundo
-      .h3 3.7 Hidrógeno verde
+      .h2 3.7 Hidrógeno verde
 
-    .row.justify-content-center.align-items-star.fondo-7.p-3.mb-3
-      .col-md-3.col-lg.mb-5.mb-lg-0(data-aos="fade-right")  
+    .row.justify-content-center.align-items-center.fondo-7.p-3.mb-3
+      .col-md-3.col-lg.mb-0.mb-lg-0(data-aos="fade-right")  
         img(src="@/assets/curso/images/tema3/img_10.svg").mb-3 
       .col-12.col-lg-9(data-aos="fade-left") 
         p.mb-3 El hidrógeno es el elemento químico más ligero y predominante en la Tierra; sin embargo, este no se encuentra disponible en un yacimiento natural; se encuentra combinado con otros elementos formando moléculas complejas, por ejemplo, la del agua y la de los hidrocarburos.
@@ -336,7 +338,7 @@
     Separador 
   
     #t_3_8.titulo-segundo
-      .h3 3.8 Contexto mundial y colombiano - capacidad instalada de energías renovables
+      .h2 3.8 Contexto mundial y colombiano - capacidad instalada de energías renovables
 
     p.mb-3 Según el IRENA (International Renewable Energy Technologies) la distribución mundial en porcentaje de la capacidad instalada de energías renovables en 2020 son las que se muestran en la siguiente figura:
 

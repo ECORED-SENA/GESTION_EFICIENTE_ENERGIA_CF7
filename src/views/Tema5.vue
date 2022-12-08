@@ -6,34 +6,34 @@
       .titulo-principal__numero 
         span 5
       h1 Cambio climático
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.m-top.mb-0.cs
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-6(data-aos="fade-right")
-        p.mb-3 Cuando se habla del medio ambiente y se quiere describir las condiciones naturales del entorno asociadas a un lugar específico, es necesario incluir en dicha descripción el tiempo atmosférico o meteorológico, el cual se define como el valor en el tiempo de la temperatura, la presión, el viento, la humedad y la precipitación.
+        p.mb-5 Cuando se habla del medio ambiente y se quiere describir las condiciones naturales del entorno asociadas a un lugar específico, es necesario incluir en dicha descripción el tiempo atmosférico o meteorológico, el cual se define como el valor en el tiempo de la temperatura, la presión, el viento, la humedad y la precipitación.
         .list
           .list__item
             .list__item__icon
-              img.img-a(src="@/assets/curso/images/tema2/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;").img-fluid  
-          .list__txt  
-            p.m-top.mx-2 El valor de estas variables cambia con el tiempo y dependen en general de la radiación solar y la composición de la atmósfera y estos factores a su vez dependen de la latitud, la altitud, orientación del relieve, continentalidad (distancia al mar) y corrientes oceánicas. 
+              img.img-a(src="@/assets/curso/images/tema5/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;").img-fluid  
+            .list__txt  
+              p.m-top.mx-2 El valor de estas variables cambia con el tiempo y dependen en general de la radiación solar y la composición de la atmósfera y estos factores a su vez dependen de la latitud, la altitud, orientación del relieve, continentalidad (distancia al mar) y corrientes oceánicas. 
         .list
           .list__item
             .list__item__icon
-              img.img-a(src="@/assets/curso/images/tema2/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;")
-          .list__txt    
-            p.m-top.mx-2 El valor promedio de cada una de estas variables tomadas en lapsos de tiempo relativamente largos (30 años o más) se conoce como clima. 
+                img.img-a(src="@/assets/curso/images/tema5/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;")
+            .list__txt    
+              p.m-top.mx-2 El valor promedio de cada una de estas variables tomadas en lapsos de tiempo relativamente largos (30 años o más) se conoce como clima. 
         .list
           .list__item
             .list__item__icon
-              img.img-a(src="@/assets/curso/images/tema2/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;") 
-          .list__txt    
-            p.m-top.mx-2 A pesar de ser un promedio, el clima también experimenta cambios naturales en la magnitud de sus variables.
+              img.img-a(src="@/assets/curso/images/tema5/rayo.svg", alt='', style="width:10px; display:block; margin:auto 0 ;") 
+            .list__txt    
+              p.m-top.mx-2 A pesar de ser un promedio, el clima también experimenta cambios naturales en la magnitud de sus variables.
         .list
           .list__item
             .list__item__icon
-              img.img-a(src="@/assets/curso/images/tema2/rayo.svg" , alt='', style="width:10px; display:block; margin:auto 0 ;")
-          .list__txt    
-            p.m-top.mx-2 Cuando estos cambios no son debidos a factores naturales sino a efectos de la actividad humana se habla de cambio climático.
+              img.img-a(src="@/assets/curso/images/tema5/rayo.svg" , alt='', style="width:10px; display:block; margin:auto 0 ;")
+            .list__txt    
+              p.m-top.mx-2 Cuando estos cambios no son debidos a factores naturales sino a efectos de la actividad humana se habla de cambio climático.
 
       .col-8.col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema5/img_1.svg')
@@ -41,6 +41,8 @@
 
     p.text-center.mb-3 Se invita a la revisión de la definición de cambio climático, así como sus causas y efectos, a partir de la siguiente información.
 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+  
     h3.mb-5 Definición
 
     .row.justify-content-center.align-items-star.mb-5
@@ -100,7 +102,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.mb-0.cs.mg-top-1
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-left")
-        h3.mt-4 Soluciones tecnológicas
+        h4.mt-4 Soluciones tecnológicas
         p.mb-3  Según el IPCC (2007), la sociedad puede adecuarse al cambio climático y sus impactos por medio de estrategias de adaptación, mitigación y geoingeniería.
 
         p.mb-0 as estrategias de adaptación son necesarias porque el cambio climático natural es impredecible y no puede evitarse y ante estas circunstancias es un hecho que las acciones preventivas son más efectivas y menos costosas que las correctivas. Un ejemplo de estrategia de adaptación al aumento del nivel del mar se muestra en la siguiente figura:
@@ -117,35 +119,35 @@
         .jumbotron-11.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema5/ico_1.svg' alt='')
+              img(src='@/assets/curso/images/tema5/ico_1.svg' , alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-9
               p.mt-1 Colombia como país integrante de la ONU y en cumplimientos de los objetivos de desarrollo sostenible, en particular el “Objetivo 13: Adoptar medidas urgentes para combatir el cambio climático y sus efectos” ha implementado la Estrategia colombiana de desarrollo bajo en carbono (ECDBC) que es un programa liderado por el Ministerio de Ambiente y Desarrollo Sostenible (MADS), cuyo objetivo es evitar el crecimiento acelerado de las emisiones de GEI a medida que los sectores económicos crecen.
 
         .jumbotron-11.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema5/ico_2.svg' alt='')
+              img(src='@/assets/curso/images/tema5/ico_2.svg' , alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-9
               p.mt-1 Las estrategias de geoingeniería hacen referencia al desarrollo y uso de nuevas tecnologías para remover de la atmósfera los gases de efecto invernadero y para controlar el clima.
 
         .jumbotron-11.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema5/ico_3.svg' alt='')
+              img(src='@/assets/curso/images/tema5/ico_3.svg' , alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-9
               p.mt-1 Ejemplos de estas estrategias son la reforestación, aumento del consumo de dióxido de carbono (CO2) en los procesos biológicos del mar, aumento de la desintegración y ruptura de las rocas (meteorización) por reacción con el dióxido de carbono (CO2) atmosférico y manejo de la radiación solar.
 
         .jumbotron-11.p-4.mb-3 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema5/ico_4.svg' alt='')
+              img(src='@/assets/curso/images/tema5/ico_4.svg' , alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-9
               p.mt-1 Los Planes de Acción Sectorial de Mitigación para el Cambio Climático (PAS) que tienen como objeto identificar las prioridades de mitigación en los diferentes sectores económicos y sus medios de implementación para facilitar su integración en la planeación sectorial y lograr así la reducción de emisiones futuras y el programa de Uso Racional de la energía (URE).
 
         .jumbotron-11.p-4
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema5/ico_5.svg' alt='')
+              img(src='@/assets/curso/images/tema5/ico_5.svg' , alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-9
               p.mt-1 Que es “el aprovechamiento óptimo de la energía en todas y cada una de las cadenas energéticas, desde la selección de la fuente energética, su producción, transformación, transporte, distribución, y consumo incluyendo su reutilización cuando sea posible, buscando en todas y cada una de las actividades, de la cadena el desarrollo sostenible” (Ley 697 de 2001).
 

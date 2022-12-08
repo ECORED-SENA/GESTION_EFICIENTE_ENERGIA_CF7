@@ -4,9 +4,31 @@ export default {
       'Recursos energéticos de acuerdo con su aprovechamiento, impacto ambiental y contexto',
     descripcionCurso:
       'En esta unidad se estudiarán fundamentalmente los diferentes tipos de recursos energéticos. El aprendiz conocerá las principales tecnologías para la producción de energía renovable y no renovable. Además, llegará a la comprensión de sus impactos ambientales y su relación con fenómenos como el cambio climático. Estos conceptos son necesarios para entender la importancia de los cambios actuales en el contexto energético.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_1.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/images/header/eli_1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/images/header/eli_2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/images/header/nube_1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/images/header/nube_2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/images/header/nube_3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -32,37 +54,37 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Dimensiones y unidades',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Conceptos básicos',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Ley cero de la termodinámica',
-            hash: 'botones',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'La primera ley de la termodinámica',
-            hash: 'audio',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'La segunda ley de la termodinámica',
-            hash: 'listas',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Ciclos termodinámicos',
-            hash: 'tablas',
+            hash: 't_1_6',
           },
         ],
       },
@@ -244,7 +266,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '7.3',
             titulo: 'Regulación de los servicios públicos domiciliarios',
-            hash: 't7_3',
+            hash: 't_7_3',
           },
           {
             icono: 'far fa-file-alt',

@@ -60,7 +60,7 @@
     Separador 
   
     #t_6_1.titulo-segundo
-      .h3 6.1 El efecto invernadero y gases de efecto invernadero (GEI)
+      .h2 6.1 El efecto invernadero y gases de efecto invernadero (GEI)
 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-9(data-aos="fade-right")
@@ -184,7 +184,7 @@
     Separador 
   
     #t_6_2.titulo-segundo
-      .h3 6.2 Enfoques para la determinación de la huella de carbono
+      .h2 6.2 Enfoques para la determinación de la huella de carbono
 
     p.mb-3 Existen cuatro posibles enfoques para el cálculo de la huella de carbono, los cuales están determinados por el tipo de actividad a analizar:
 
@@ -226,7 +226,7 @@
     Separador 
   
     #t_6_3.titulo-segundo
-      .h3 6.3 Factores de emisión para la huella de carbono corporativa
+      .h2 6.3 Factores de emisión para la huella de carbono corporativa
 
     
     .row.justify-content-center.align-items-star.mb-5
@@ -280,7 +280,7 @@
     Separador 
   
     #t_6_4.titulo-segundo
-      .h3 6.4 Pasos para el cálculo de la huella de carbono de una organización
+      .h2 6.4 Pasos para el cálculo de la huella de carbono de una organización
     
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-9(data-aos="fade-right")

@@ -11,46 +11,46 @@
 
     Separador 
     
-    #t9_1.titulo-segundo
-      .h3 9.1 Generación
+    #t_9_1.titulo-segundo
+      .h2 9.1 Generación
     
     p.mb-3 La generación de electricidad es el proceso mediante el cual se transforma un tipo de energía primaria en energía eléctrica. Las plantas generadoras se clasifican, dependiendo del tipo de energía primaria utilizada para la generación de la electricidad. En Colombia las plantas generadoras utilizadas son:
 
     .row.align-items-center.justify-content-center.p-4
       SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-        .tarjeta-avatar
-          img(src='@/assets/curso/images/tema9/ico_1.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .tarjeta-avatar-2.h-100
+          img(src='@/assets/curso/images/tema9/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-9
             .p-4.text-ce
               h4.text-center Hidráulica
               p.text-center Aprovecha la energía cinética del agua acumulada en un embalse para mover turbinas
 
 
-        .tarjeta-avatar
-          img(src='@/assets/curso/images/tema9/ico_2.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .tarjeta-avatar-2.h-100
+          img(src='@/assets/curso/images/tema9/ico_2.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-9
             .p-3
               h4.text-center Térmica o combustible fósil
               p.text-center Utiliza procesos térmicos, químicos y eléctricos para generar energía obtenida a partir de combustibles como el Fuel Oil, Carbón, ACPM, Gas y Jet-A1, entre otros.
 
-        .tarjeta-avatar
-          img.mb-5(src='@/assets/curso/images/tema9/ico_3.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .tarjeta-avatar-2.h-100
+          img.mb-5(src='@/assets/curso/images/tema9/ico_3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-9
             .p-3
               h4.text-center Solar
               p.text-center Utiliza como fuente primaria la energía proveniente de la radiación solar.
 
-        .tarjeta-avatar
-          img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .tarjeta-avatar-2.h-100
+          img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-9
             .p-3
               h4.text-center Eólica
               p.text-center Utiliza como fuente primaria la energía de las corrientes de aire para mover las palas de un aerogenerador.
 
-        .tarjeta-avatar
-          img(src='@/assets/curso/images/tema9/ico_5.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .tarjeta-avatar-2.h-100
+          img(src='@/assets/curso/images/tema9/ico_5.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-9
             .p-3
@@ -69,44 +69,43 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-4
-        .tabla-a.color-acento-botones.mb-2
-          table
-            thead
-              tr
-                th.th-2.text-center  Tipo / Fuente de energía
-                th.text-center.th-2   Capacidad efectiva neta [MW]
-                th.text-center.th-2   Porcentaje del total [%]
-     
-            tbody
-              tr
-                td.text-center.th-1  Hidráulica
-                td.text-center.th-1 11.944,79
-                td.th-1.text-center 68,3 % 
-
-              tr
-                td.text-center  Térmica
-                td.text-center  5.321,34
-                td.text-center 30,4 % 
-           
-              tr
-                td.text-center.th-1  Solar
-                td.th-1.text-center  60,56
-                td.text-center.th-1  0,3 %
+        table
+          thead
+            tr
+              th.th-2.text-center  Tipo / Fuente de energía
+              th.text-center.th-2   Capacidad efectiva neta [MW]
+              th.text-center.th-2   Porcentaje del total [%]
     
-              tr
-                td.text-center  Eólica
-                td.text-center 18,42 
-                td.text-center 0,1 %  
-           
-              tr
-                td.text-center.th-1 Biomasa
-                td.th-1.text-center  139,6
-                td.text-center.th-1  0,8 %
-         
-              tr
-                td.text-center  <b>Total</b>
-                td.text-center  <b>17.484,71</b>
-                td.text-center  <b>100 %</b>
+          tbody
+            tr
+              td.text-center.th-1  Hidráulica
+              td.text-center.th-1 11.944,79
+              td.th-1.text-center 68,3 % 
+
+            tr
+              td.text-center  Térmica
+              td.text-center  5.321,34
+              td.text-center 30,4 % 
+          
+            tr
+              td.text-center.th-1  Solar
+              td.th-1.text-center  60,56
+              td.text-center.th-1  0,3 %
+  
+            tr
+              td.text-center  Eólica
+              td.text-center 18,42 
+              td.text-center 0,1 %  
+          
+            tr
+              td.text-center.th-1 Biomasa
+              td.th-1.text-center  139,6
+              td.text-center.th-1  0,8 %
+        
+            tr
+              td.text-center  <b>Total</b>
+              td.text-center  <b>17.484,71</b>
+              td.text-center  <b>100 %</b>
 
         .row.mb-0
             .col-lg-12
@@ -134,44 +133,43 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-4
-        .tabla-a.color-acento-botones.mb-2
-          table
-            thead
-              tr
-                th.th-2.text-center  Tipo / Fuente de energía
-                th.text-center.th-2   Capacidad efectiva neta [MW]
-                th.text-center.th-2   Porcentaje del total [%]
-     
-            tbody
-              tr
-                td.text-center.th-1  Hidráulica
-                td.text-center.th-1 49.837,40
-                td.th-1.text-center 71,9 %
-
-              tr
-                td.text-center  Térmica
-                td.text-center  18.560,90
-                td.text-center 26,8 % 
-           
-              tr
-                td.text-center.th-1  Solar
-                td.th-1.text-center  190,80
-                td.text-center.th-1  0,3 %
+        table
+          thead
+            tr
+              th.th-2.text-center  Tipo / Fuente de energía
+              th.text-center.th-2   Capacidad efectiva neta [MW]
+              th.text-center.th-2   Porcentaje del total [%]
     
-              tr
-                td.text-center  Eólica
-                td.text-center 10,10
-                td.text-center 0,0 % 
-           
-              tr
-                td.text-center.th-1 Biomasa
-                td.th-1.text-center  724,40
-                td.text-center.th-1  1,0 %
-         
-              tr
-                td.text-center  <b>Total</b>
-                td.text-center  <b>69.323,60</b>
-                td.text-center  <b>100 %</b>
+          tbody
+            tr
+              td.text-center.th-1  Hidráulica
+              td.text-center.th-1 49.837,40
+              td.th-1.text-center 71,9 %
+
+            tr
+              td.text-center  Térmica
+              td.text-center  18.560,90
+              td.text-center 26,8 % 
+          
+            tr
+              td.text-center.th-1  Solar
+              td.th-1.text-center  190,80
+              td.text-center.th-1  0,3 %
+  
+            tr
+              td.text-center  Eólica
+              td.text-center 10,10
+              td.text-center 0,0 % 
+          
+            tr
+              td.text-center.th-1 Biomasa
+              td.th-1.text-center  724,40
+              td.text-center.th-1  1,0 %
+        
+            tr
+              td.text-center  <b>Total</b>
+              td.text-center  <b>69.323,60</b>
+              td.text-center  <b>100 %</b>
 
         .row.mb-0
             .col-lg-12
@@ -191,8 +189,8 @@
 
     Separador 
     
-    #t9_2.titulo-segundo
-      .h3 9.2 Transmisión
+    #t_9_2.titulo-segundo
+      .h2 9.2 Transmisión
 
     p.mb-3 Esta actividad consiste en el transporte de energía eléctrica a través del conjunto de líneas, con sus correspondientes módulos de conexión (Sistema de Transmisión Nacional – STN), que operan a tensiones iguales o superiores a 220 kV, o a través de redes regionales o interregionales de transmisión a tensiones inferiores. En la siguiente tabla de acuerdo con la información suministrada por PARATEC (2021) se muestra la longitud total de líneas de transmisión en el país a junio de 2021 y la distribución de acuerdo con su nivel de tensión.
 
@@ -291,19 +289,19 @@
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
     .row.justify-content-center.align-items-center.mb-2
-      .tarjeta--container.row.mb-5
+      .tarjeta--container.row.mb-5.h-100
         .col-md.tarjeta.color-custom-10.p-5(data-aos="fade-right") 
           .row.justify-content-center.mb-4
             .col-12
               figure
-                img(src='@/assets/curso/images/tema9/ico_6.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
+                img(src='@/assets/curso/images/tema9/ico_6.svg', alt="", style="width:180px; display:block; margin:0 auto;").mb-3
               
                 p.text-center.text-white La rentabilidad de las empresas comercializadoras dependerá de la diferencia entre el valor al que adquieren la energía y el valor de venta al cliente.
         .col-md.tarjeta.color-custom-5.p-5(data-aos="fade-left") 
           .row.justify-content-center.mb-4
             .col-12
               figure
-                img(src='@/assets/curso/images/tema9/ico_7.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
+                img(src='@/assets/curso/images/tema9/ico_7.svg', alt="", style="width:180px; display:block; margin:0 auto;").mb-3
               
                 p.text-center.text-white Cada empresa asigna libremente el valor en pesos por las actividades de comercialización en un componente denominado con la letra C, el cual es cobrado al cliente en la factura de energía con los demás componentes asociados al costo unitario del servicio.
 
@@ -436,22 +434,22 @@
             .row.justify-content-center.mb-4
               .col-12
                 figure
-                  img(src='@/assets/curso/images/tema9/ico_10.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
+                  img(src='@/assets/curso/images/tema9/ico_10.svg', alt="", style="width:180px; display:block; margin:0 auto;").mb-3
                 
                   p.text-center.text-white Los usuarios son las personas naturales o jurídicas quienes reciben y usan en sus domicilios el servicio de electricidad. 
           .col-md.tarjeta.color-custom-5.p-5(data-aos="fade-left") 
             .row.justify-content-center.mb-4
               .col-12
                 figure
-                  img(src='@/assets/curso/images/tema9/ico_11.svg', alt="", style="width:150px; display:block; margin:0 auto;").mb-3
+                  img(src='@/assets/curso/images/tema9/ico_11.svg', alt="", style="width:180px; display:block; margin:0 auto;").mb-3
                 
                   p.text-center.text-white A cambio de la prestación del servicio, mensualmente reciben una factura donde se cobra un valor en pesos proporcional al consumo en kilovatioshora (kWh) de acuerdo con un precio unitario de pesos por kilovatiohora ($/kWh) pactado con la empresa comercializadora.
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-0    
     Separador 
     
-    #t9_3.titulo-segundo
-      .h3 9.3 Usuarios regulados y no regulados
+    #t_9_3.titulo-segundo
+      .h2 9.3 Usuarios regulados y no regulados
     
 
     p.mb-3 En Colombia los usuarios se dividen en dos clasificaciones: regulados y no regulados. El término “regulado” indica que el valor unitario de pesos por kilovatio hora es establecido o regulado por la CREG. En la siguiente tabla se resumen las características de cada tipo de usuario:
@@ -511,8 +509,8 @@
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-0    
     Separador 
     
-    #t9_4.titulo-segundo
-      .h3 9.4. Consumo nacional por tipo de usuario
+    #t_9_4.titulo-segundo
+      .h2 9.4. Consumo nacional por tipo de usuario
 
     p.mb-3 El consumo de energía eléctrica determina la participación de los usuarios en el mercado y las transacciones realizadas en el sistema eléctrico nacional. En la siguiente figura se describe el porcentaje de participación por tipo de usuario en el año 2020, de acuerdo con los datos suministrados por XM (2020).
 
@@ -522,29 +520,28 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-6
-        .tabla-a.color-acento-botones.mb-2
-          table
-            thead
-              tr
-                th.th-2.text-center  Tipo de Usuario
-                th.text-center.th-2  Demanda [GWh]
-                th.text-center.th-2  Porcentaje de participación [%]
-     
-            tbody
-              tr
-                td.text-center.th-1  No Regulados
-                td.text-center.th-1 21.053
-                td.th-1.text-center 30 %
+        table
+          thead
+            tr
+              th.th-2.text-center  Tipo de Usuario
+              th.text-center.th-2  Demanda [GWh]
+              th.text-center.th-2  Porcentaje de participación [%]
+    
+          tbody
+            tr
+              td.text-center.th-1  No Regulados
+              td.text-center.th-1 21.053
+              td.th-1.text-center 30 %
 
-              tr
-                td.text-center  Regulados
-                td.text-center  48.973
-                td.text-center 70 %
-           
-              tr
-                td.text-center.th-1  Total Nacional
-                td.th-1.text-center  70.026
-                td.text-center.th-1  100 %
+            tr
+              td.text-center  Regulados
+              td.text-center  48.973
+              td.text-center 70 %
+          
+            tr
+              td.text-center.th-1  Total Nacional
+              td.th-1.text-center  70.026
+              td.text-center.th-1  100 %
     
       .col-lg-4
           img.mb-4(src="@/assets/curso/images/tema9/fig_4.svg")

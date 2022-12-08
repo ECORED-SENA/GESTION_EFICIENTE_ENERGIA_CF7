@@ -22,8 +22,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_video.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_video.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Breve historia de la termodinámica
                   p.mb-1.text-white Amplía el conocimiento sobre cómo y cuándo surge la termodinámica, y el impacto que esta tiene en las sociedades
@@ -41,13 +41,13 @@
     Separador 
     
     #t_1_1.titulo-segundo
-      .h3 1.1  Dimensiones y unidades
+      .h2 1.1  Dimensiones y unidades
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9(data-aos="fade-right")
         p.mb-3 Tienen un papel importante en el estudio de la termodinámica. Por tratarse de una ciencia que estudia los fenómenos a nivel macroscópico, las cantidades que se utilizan en esta rama de la física se pueden conocer a partir de una medición directa o indirecta.
 
-        p.mb-0 El sistema de unidades que comúnmente se utiliza en termodinámica es el Sistema Internacional (SI). Actualmente en países como Estados Unidos de América aún no se adopta el sistema métrico, por tanto, se mencionan en este documento las unidades del sistema inglés para conocer la relación entre algunas magnitudes. Se invita a examinar las unidades básicas y derivadas del SI más frecuentes en termodinámica. 
+        p.mb-3 El sistema de unidades que comúnmente se utiliza en termodinámica es el Sistema Internacional (SI). Actualmente en países como Estados Unidos de América aún no se adopta el sistema métrico, por tanto, se mencionan en este documento las unidades del sistema inglés para conocer la relación entre algunas magnitudes. Se invita a examinar las unidades básicas y derivadas del SI más frecuentes en termodinámica. 
       .col-6.col-lg-3(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_1.svg')
 
@@ -57,8 +57,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Dimensiones y unidades
                   p.mb-1.text-white Se invita al aprendiz a revisar algunas unidades del sistema inglés, prefijos y relaciones de conversión.
@@ -68,42 +68,42 @@
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+    Separador 
 
     #t_1_2.titulo-segundo
-      .h3 1.2  Conceptos básicos
+      .h2 1.2  Conceptos básicos
       
-    p.mb-3 Los términos básicos que permitirán tener una mejor comprensión del estudio de la termodinámica y de los principios que la gobiernan son:
+    p.mb-0 Los términos básicos que permitirán tener una mejor comprensión del estudio de la termodinámica y de los principios que la gobiernan son:
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
-    .row.align-items-center.justify-content-center.p-4
+    .row.align-items-center.justify-content-center
       SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema1/1.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
-          .tarjeta.color-custom-2
+          .tarjeta.color-custom-2.p-2
             .p-4.text-ce
               h4.text-center Sistema 
-              p.text-center.text-small Es la herramienta analítica de <i>Microsoft</i> y una de las más populares, debido a que ofrece visualizaciones interactivas de datos y  una integración sencilla con otras herramientas de la corporación.   
 
 
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema1/2.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
-          .tarjeta.color-custom-3
+          .tarjeta.color-custom-3.p-2
             .p-5
               h4.text-center.mb-5 Propiedades termodinámicas
 
 
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img.mb-5(src='@/assets/curso/images/tema1/3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
-          .tarjeta.color-custom-2.p-5
+          .tarjeta.color-custom-2.p-2
             .p-5
               h4.text-center Estado
 
-        .tarjeta-avatar
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/images/tema1/4.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
-          .tarjeta.color-custom-3.p-3
+          .tarjeta.color-custom-3.p-2
             .p-5
               h4.text-center.mb-5 Procesos y ciclos
 
@@ -117,8 +117,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Principios básicos de la termodinámica
                   p.mb-1.text-white Se integra de qué trata cada principio que a la vez gobierna la termodinámica
@@ -128,9 +128,10 @@
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+    Separador 
 
     #t_1_3.titulo-segundo
-      .h3 1.3  Ley cero de la termodinámica
+      .h2 1.3  Ley cero de la termodinámica
       
     p.mb-3 Esta ley permite establecer el equilibrio térmico, se invita a visualizar cómo ocurre, explorando la didáctica.
 
@@ -181,9 +182,10 @@
       .col-lg-8(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/fig_3.svg')
 
+    Separador 
 
     #t_1_4.titulo-segundo
-      .h3 1.4  La primera ley de la termodinámica
+      .h2 1.4  La primera ley de la termodinámica
 
     p.mb-3 La primera ley de la termodinámica es una expresión del principio de conservación de la energía y sostiene que la energía es una propiedad termodinámica. <b>El principio de conservación de la energía</b> manifiesta que, durante una interacción, la energía puede cambiar de una forma a otra, pero su cantidad total permanece constante. La primera ley enuncia que:
 
@@ -192,7 +194,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 La energía no se puede crear ni destruir durante un proceso; solo puede cambiar de forma
+            h4.mb-0 La energía no se puede crear ni destruir durante un proceso; solo puede cambiar de forma
             i.fas.fa-quote-right
         .row.mb-5
           p.mx-3 (Cengel & Boles, 2015, p.70).
@@ -210,8 +212,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Primera ley de la termodinámica
                   p.mb-1.text-white Se establece la relación entre el trabajo, el calor y la energía interna de un sistema relacionados con la primera ley de la termodinámica, como la energía, algunas de sus principales formas y cómo se transforma.
@@ -221,9 +223,10 @@
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
-    
+    Separador 
+
     #t_1_5.titulo-segundo
-      .h3 1.5  La segunda ley de la termodinámica
+      .h2 1.5  La segunda ley de la termodinámica
 
     p.mb-3 Establece el sentido en el que ocurre un proceso. La segunda ley surgió a partir de algunas restricciones a la primera ley, esta última no permite tener certeza de si un proceso puede o no ocurrir. No obstante, para que ocurra un proceso, este debe satisfacer tanto la primera como la segunda ley de la termodinámica.
 
@@ -235,8 +238,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Segunda ley de la termodinámica
                   p.mb-1.text-white Se presentan en primer lugar algunos conceptos relacionados con la segunda ley, como depósitos, máquinas térmicas, entre otros, en los postulados de la segunda ley se presenta el ciclo de Carnot como ciclo ideal, y algunas máquinas como refrigeradores y bombas de calor.
@@ -246,9 +249,10 @@
                     .row
                       .col-auto
                         img.mx-1(src="@/assets/curso/images/tema1/ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+    Separador 
 
     #t_1_6.titulo-segundo
-      .h3 1.6  Ciclos termodinámicos
+      .h2 1.6  Ciclos termodinámicos
 
     p.mb-3 Son una serie de transformaciones termodinámicas realizadas en uno o más dispositivos, con el objetivo de producir trabajo a partir de dos fuentes de calor a distinta temperatura, o de manera inversa, permitir la utilización del trabajo para que haya transferencia de calor de la fuente de menor temperatura a la de mayor temperatura. El trabajo obtenido es utilizado para producir movimiento o para generar electricidad.
 
@@ -261,8 +265,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+                .col-3.col-lg-1
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Principales ciclos de la termodinámica
                   p.mb-1.text-white Descubra cuáles son los principales ciclos que se estudian en termodinámica a partir de las distintas fuentes de energía.

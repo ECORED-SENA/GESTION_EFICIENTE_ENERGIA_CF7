@@ -1,4 +1,76 @@
-.banner-interno__fondo
+.banner-principal-decorativo
+  &-1
+    animation: 8.5s rotate ease-in-out infinite  alternate
+    position: absolute
+    top: 25%
+    right: 5%
+    @media (max-width: 1400px)
+      right: 8.4%
+    @media (max-width: 1200px)
+      top: -10%
+      right: 6.5%
+  &-2
+    animation: 8.5s rotate ease-in-out infinite  alternate
+    position: absolute
+    top: 35%
+    right: 6%
+    @media (max-width: 1400px)
+      right: 8.4%
+    @media (max-width: 1200px)
+      top: -10%
+      right: 6.5%
+  &-3
+    animation: float1 12.8s ease-in-out infinite alternate
+    position: absolute
+    top: 4%
+    right: 8%
+  &-4
+    animation: float1 13.5s ease-in-out infinite alternate
+    position: absolute
+    top: -10%
+    right: 45%
+  &-5
+    animation: float1 13.5s ease-in-out infinite alternate
+    position: absolute
+    top: -6%
+    right: 75%
+
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+  5%
+    transform: rotate(5deg)
+  10%
+    transform: rotate(10deg)
+  15%
+    transform: rotate(15deg)
+  20%
+    transform: rotate(20deg)
+  25%
+    transform: rotate(25deg)
+  30%
+    transform: rotate(30deg)
+  35%
+    transform: rotate(35deg)
+  40%
+    transform: rotate(40deg)
+  45%
+    transform: rotate(45deg)
+  50%
+    transform: rotate(50deg)
+  55%
+    transform: rotate(55deg)
+  60%
+    transform: rotate(60deg)
+
+  
+@keyframes float1
+  0%
+    transform: translateY(70px)
+
+  100%
+    transform: translateY(0px)
+  .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat 
 
@@ -169,7 +241,7 @@
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-color: #2E0877
-    height: 758px !important
+    height: auto!important
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-color: #2E0877
@@ -185,6 +257,8 @@
     background-color: #2E0877
     width: 100% !important
 
+.left
+  margin-left: -8px
 
 .text
   font-size: 13px
@@ -201,6 +275,8 @@
   @media (max-width: 768px)
     width: 280px
     margin-left: -80px
+  @media (max-width: $bp-max-md) 
+    margin-left: -5px !important
 
 .color-custom-8
   background-color: #CDFCFC  
@@ -208,6 +284,8 @@
   @media (max-width: 768px)
     width: 280px
     margin-left: -80px
+  @media (max-width: $bp-max-md) 
+    margin-left: -5px !important
 
 .color-custom-9
   background-color: #C3D4EC !important
@@ -261,7 +339,9 @@
 
 .fondo-4 
   background-color: #E1EEFA
-
+  height: 280px !important
+  @media (max-width: 768px)
+    height: 480px !important
 .fondo-5
   background: linear-gradient(101deg, rgba(96,179,255,0.9920343137254902) 0%, rgba(218,245,173,1) 100%)
 
@@ -287,8 +367,9 @@
 
 .fondo-10
   background-image: url('../assets/curso/images/tema5/back_1.svg')
-  background-size: cover
+  background-size: 9800px
   background-repeat: no-repeat
+
 
 .fondo-11
   background-image: url('../assets/curso/images/tema9/back.svg')
@@ -326,7 +407,18 @@
   border-color: #AD84FF
   background-color: #AD84FF
 
-  
+.tarjeta-avatar > img 
+  @media (max-width: 768px)
+    position: absolute
+    left: 20%
+    top: 0
+    transform: translateX(-50%)
+    display: block
+    width: 150px
+    margin: 0 auto
+  @media (max-width: $bp-max-md) 
+    margin-left: 85px !important
+
 .tarjeta-avatar 
   height: auto
   position: relative
@@ -341,13 +433,9 @@
     height: auto
     margin-left: 40px
     margin-right: 10px
-  @media (max-width: 412px)
-    background-size: cover
-    width: 258px
-    height: 100%
-    margin-left: 10px !important
-
-.tarjeta-avatar-1 
+  @media (max-width: $bp-max-md) 
+    margin-left: 190px !important
+ 
   height: auto
   position: relative
   padding-top: 75px
@@ -370,6 +458,16 @@
     height: 100%
     margin-left: 50px !important
 
+.tarjeta-avatar-2 > img 
+  @media (max-width: 768px)
+    position: absolute
+    left: 50%
+    top: -102px
+    transform: translateX(-50%)
+    display: block
+    width: 150px
+    margin: 0 auto
+
 .th-1
   background-color: #F6F6F6 !important
 
@@ -384,7 +482,10 @@
 
 .th-5
   background-color: #F3F9FF !important
-  
+
+th 
+  text-align: center
+  text-align: -webkit-match-parent
 
 td, th 
   border: 0,9px solid #212121
@@ -443,6 +544,8 @@ td, th
 .jumbotron-15
   background-image: url('../assets/curso/images/tema9/back.svg')
 
+.jumbotron-16
+  background-color: #fff
 
 .contenedor-flecha-1
   position: relative
@@ -454,6 +557,7 @@ td, th
     left: 0
     z-index: 1
     transform: translate(315%, -50%)
+ 
 
 .contenedor-flecha-2
   position: relative
@@ -499,17 +603,29 @@ td, th
   @media (max-width: 810px)
     width: 35px
     height: 35px
+  @media (max-width: 768px)
+    width: 45px !important
+    height: 45px  !important
+    margin: 0 3px  
 
 .slyder-a__bullets__item    
   @media (max-width: 810px)
     width: 10px
     height: 10px  
     margin: 0 3px   
+  @media (max-width: 768px)
+    width: 18px !important
+    height: 18px  !important
+    margin: 0 3px   
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: $bp-max-sm )
     width: 25px
     height: 25px  
+  @media (max-width: 768px)
+    width: 45px !important
+    height: 45px  !important
+    margin: 0 3px  
       
 .slyder-a__bullets__item    
   @media (max-width: $bp-max-sm )
