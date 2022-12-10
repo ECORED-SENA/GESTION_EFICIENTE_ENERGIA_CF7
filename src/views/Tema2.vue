@@ -343,24 +343,24 @@
       .row(titulo="Producción")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_17.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Después de la exploración sísmica y exploratoria, el gas es llevado a la superficie para posteriormente pasar por un proceso de limpieza. Luego se lleva a un sistema de compresión (estación de compresión) donde se eleva la presión para ser conducida a las tuberías de transporte.
       .row(titulo="Transporte")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_18.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en llevar el gas a alta presión a través de kilómetros de tuberías denominadas gasoductos hacia los centros de distribución y directamente hacia los grandes usuarios como los generadores de energía eléctrica y grandes industrias.
 
       .row(titulo="Distribución")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_19.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 En esta actividad se baja la presión del gas a través de equipos especiales y se adiciona un olor característico (proceso de odorización) para garantizar la seguridad de las personas. El gas es llevado hacia los usuarios finales a través de tuberías de menor diámetro que atraviesan las ciudades y pueblos.
           
       .row(titulo="Comercialización")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_20.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Es el proceso mediante el cual los consumidores adquieren el gas natural para su consumo. A contraprestación, el usuario recibe una factura con el valor de consumo en metros cúbicos, el valor unitario de pesos por metro cúbico ($/m3) y el valor total a pagar en pesos.
 
 
