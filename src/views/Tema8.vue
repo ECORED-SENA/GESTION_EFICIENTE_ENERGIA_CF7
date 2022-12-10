@@ -189,24 +189,25 @@
     
     p.mb-3 La Comisión de Regulación de Energía y Gas (CREG) es la entidad encargada por el Gobierno Nacional para generar la reglamentación legal del funcionamiento del MEM. En general las regulaciones van orientadas a dos objetivos principales:
 
-    .contenedor-flecha-1.my-5.d-none.d-lg-block
-      .contenedor-flecha-2
-        .row.justify-content-center.align-items-center
-          .col-lg-4(data-aos="zoom-in-down")
-            .jumbotron-13.p-4.mb-2
-              .row.justify-content-center.align-items-center
-                .col-4.col-lg-4
-                  img(src="@/assets/curso/images/tema8/ico_4.svg")
-              .row.justify-content-center.align-items-center
-                p.text-white.mt-5 Garantizar la libre competencia en las transacciones entre generadores y comercializadores.
-          .col-lg-4(data-aos="zoom-in-down")
-            .jumbotron-14.p-4
-              .row.justify-content-center.align-items-center
-                .col-4.col-lg-4
-                  img(src="@/assets/curso/images/tema8/ico_5.svg")
-              .row.justify-content-center.align-items-center
-                p.text-white.mt-5 Regular los monopolios en la cadena de la energía donde no es posible la libre competencia.
-                .contenedor-flecha-1.my-5
+    .row.justify-content-center.align-items-center.left-1.d-none.d-lg-block
+      .contenedor-flecha-1.my-5.mx-5.ps-5
+        .contenedor-flecha-2
+          .row.justify-content-center.ps-5
+            .col-lg-4(data-aos="zoom-in-down")
+              .jumbotron-13.p-4.mb-2.h-100
+                .row.justify-content-center.align-items-center
+                  .col-4.col-lg-4
+                    img(src="@/assets/curso/images/tema8/ico_4.svg")
+                .row.justify-content-center.align-items-center
+                  p.text-white.mt-5 Garantizar la libre competencia en las transacciones entre generadores y comercializadores.
+            .col-lg-4(data-aos="zoom-in-down")
+              .jumbotron-14.p-4.h-100
+                .row.justify-content-center.align-items-center
+                  .col-4.col-lg-4
+                    img(src="@/assets/curso/images/tema8/ico_5.svg")
+                .row.justify-content-center.align-items-center
+                  p.text-white.mt-5 Regular los monopolios en la cadena de la energía donde no es posible la libre competencia.
+                  .contenedor-flecha-1.my-5
 
     .row.d-block.d-lg-none.mb-3
       .row.justify-content-center.align-items-center
@@ -224,8 +225,8 @@
                 img(src="@/assets/curso/images/tema8/ico_5.svg")
             .row.justify-content-center.align-items-center
               p.text-white.mt-5 Regular los monopolios en la cadena de la energía donde no es posible la libre competencia.
-
-    p.mb-5 A continuación, se muestran algunas de las reglas más relevantes del MEM y las resoluciones de la CREG que las establecen y los enlaces para su consulta:
+    br
+    p.my-5 A continuación, se muestran algunas de las reglas más relevantes del MEM y las resoluciones de la CREG que las establecen y los enlaces para su consulta:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12.lg-0

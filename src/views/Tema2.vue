@@ -503,30 +503,30 @@
       .row(titulo="Prospección")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_24.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en la identificación de posibles fuentes de carbón para el desarrollo de un proyecto minero.
       .row(titulo="Exploración")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_25.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 En esta parte de la cadena se pretende hacer una identificación de las características geológicas de un yacimiento. Consiste en la realización de manera secuencial de las siguientes actividades: geología superficial, geología del subsuelo, elaboración del modelo geológico del yacimiento y programación de trabajos y obras requeridos.
 
       .row(titulo="Construcción y montaje de obras")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_26.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en la construcción de la infraestructura (carreteras, edificaciones, maquinaria, recursos humanos, etc) necesaria para realizar la extracción, almacenamiento y transporte del carbón.
           
       .row(titulo="Comercialización")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_27.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Se refiere a todas las actividades que conllevan las operaciones de compra y venta del carbón al comprador o usuario final.
 
       .row(titulo="Cierre y abandono")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_28.png'  alt='').mb-3
-        .col-md-12.mb-4.mb-md-0.ps-3
+        .col-md-9.mb-4.mb-md-0.ps-3
           p.mb-0 Una vez se haya cumplido con los plazos para la extracción del proyecto carbonífero, se debe elaborar y ejecutar un plan de cierre de la mina de acuerdo con la normativa ambiental y social solicitada por las autoridades competentes.
 
     .row.mb-3.ps-1(data-aos="zoom-in-down")
