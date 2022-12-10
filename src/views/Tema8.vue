@@ -193,14 +193,14 @@
       .contenedor-flecha-1.my-5.mx-5.ps-5
         .contenedor-flecha-2
           .row.justify-content-center.ps-5
-            .col-lg-4(data-aos="zoom-in-down")
+            .col-lg-4
               .jumbotron-13.p-4.mb-2.h-100
                 .row.justify-content-center.align-items-center
                   .col-4.col-lg-4
                     img(src="@/assets/curso/images/tema8/ico_4.svg")
                 .row.justify-content-center.align-items-center
                   p.text-white.mt-5 Garantizar la libre competencia en las transacciones entre generadores y comercializadores.
-            .col-lg-4(data-aos="zoom-in-down")
+            .col-lg-4
               .jumbotron-14.p-4.h-100
                 .row.justify-content-center.align-items-center
                   .col-4.col-lg-4
