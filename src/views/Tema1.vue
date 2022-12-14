@@ -22,8 +22,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_video.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_video.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Breve historia de la termodinámica
                   p.mb-1.text-white Amplía el conocimiento sobre cómo y cuándo surge la termodinámica, y el impacto que esta tiene en las sociedades
@@ -57,8 +57,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Dimensiones y unidades
                   p.mb-1.text-white Se invita al aprendiz a revisar algunas unidades del sistema inglés, prefijos y relaciones de conversión.
@@ -79,33 +79,33 @@
 
     .row.align-items-center.justify-content-center
       SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/1.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-2.p-2
-            .p-4.text-ce
+            .p-2
               h4.text-center Sistema 
 
 
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/2.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
           .tarjeta.color-custom-3.p-2
-            .p-5
-              h4.text-center.mb-5 Propiedades termodinámicas
+            .p-2
+              h4.text-center Propiedades termodinámicas
 
 
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar
           img.mb-5(src='@/assets/curso/images/tema1/3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-2.p-2
-            .p-5
+            .p-2
               h4.text-center Estado
 
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/4.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
 
           .tarjeta.color-custom-3.p-2
-            .p-5
-              h4.text-center.mb-5 Procesos y ciclos
+            .p-2
+              h4.text-center Procesos y ciclos
 
     
 
@@ -117,8 +117,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Principios básicos de la termodinámica
                   p.mb-1.text-white Se integra de qué trata cada principio que a la vez gobierna la termodinámica
@@ -212,8 +212,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Primera ley de la termodinámica
                   p.mb-1.text-white Se establece la relación entre el trabajo, el calor y la energía interna de un sistema relacionados con la primera ley de la termodinámica, como la energía, algunas de sus principales formas y cómo se transforma.
@@ -238,8 +238,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Segunda ley de la termodinámica
                   p.mb-1.text-white Se presentan en primer lugar algunos conceptos relacionados con la segunda ley, como depósitos, máquinas térmicas, entre otros, en los postulados de la segunda ley se presenta el ciclo de Carnot como ciclo ideal, y algunas máquinas como refrigeradores y bombas de calor.
@@ -265,8 +265,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Principales ciclos de la termodinámica
                   p.mb-1.text-white Descubra cuáles son los principales ciclos que se estudian en termodinámica a partir de las distintas fuentes de energía.

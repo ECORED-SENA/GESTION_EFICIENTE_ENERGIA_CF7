@@ -161,41 +161,41 @@
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_7.svg' , alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
+              img(src='@/assets/curso/images/tema7/ico_7.svg' , alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
-              h3 Inspección
+              h4 Inspección
               p.mt-1 Recopila y valida la información jurídica, técnica, contable, comercial y administrativa de las empresas prestadoras del servicio.
         hr 
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_8.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
+              img(src='@/assets/curso/images/tema7/ico_8.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
-              h3 Vigilancia
+              h4 Vigilancia
               p.mt-1 Monitorea la operación de las empresas prestadoras del servicio para determinar alertas que pongan en riesgo la prestación del servicio.
         hr 
         .jumbotron-12.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_9.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
+              img(src='@/assets/curso/images/tema7/ico_9.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
-              h3 Control
+              h4 Control
               p.mt-1 Aplica las medidas administrativas a las empresas que incumplan la normatividad vigente, para que sean corregidas como protección para la correcta prestación del servicio.
         hr 
         .jumbotron-12.p-4.mb-3 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_10.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
+              img(src='@/assets/curso/images/tema7/ico_10.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
-              h3 Protección de los usuarios
+              h4 Protección de los usuarios
               p.mt-1 Atiende las consultas y orienta para la presentación de peticiones, quejas y reclamos a las empresas prestadoras del servicio. Adicionalmente resuelve (en segunda instancia) las reclamaciones de los usuarios y sanciona a las empresas que no dan respuesta a tiempo a las reclamaciones.
         hr 
         .jumbotron-12.p-4
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema7/ico_11.svg' alt='', style="width:70px; display:block; margin:auto 0 ;").mb-3
+              img(src='@/assets/curso/images/tema7/ico_11.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
             .col-lg-9
-              h3 Promoción de los deberes de los usuarios
+              h4 Promoción de los deberes de los usuarios
               p.mt-1 Informa a los usuarios y comunidades sobre los derechos y deberes que tienen frente al servicio público domiciliario recibido.
 
       .col-6.col-lg-5(data-aos="fade-right")
@@ -226,7 +226,7 @@
     #t_7_5.titulo-segundo
       .h2 7.5 Contrato de condiciones uniformes
 
-    .row.justify-content-center.align-items-star.mb-5.p-3
+    .row.justify-content-star.align-items-star.mb-5.p-3
       .col-lg-7(data-aos="fade-left")
         p.mb-3 Según la Superintendencia de Servicios Públicos (2015) el Contrato de condiciones uniformes es un documento suscrito entre el usuario y la empresa que presta el servicio en donde se acuerdan las condiciones de calidad y eficiencia en la prestación del servicio y se establecen los derechos y deberes de los usuarios y la empresa, lo anterior a cambio de un precio cobrado mediante una factura del servicio.
 

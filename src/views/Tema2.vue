@@ -284,34 +284,36 @@
 
     p.mb-3 Las principales aplicaciones del gas natural son:
 
-    .row.aling-items-center.justify-content.strech.mb-4(data-aos="zoom-in-down")
-      .col-11.col-md-3.col-lg.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema2/img_13.png'  alt='')
-        .bg.p-2
-          h4.text-center.mb-0 Generación de electricidad
-        .bg-1.p-2
-          p.mb-0.p-3 Existen centrales térmicas de gran capacidad que utilizan gas para producir electricidad mediante turbinas de gas o turbinas de vapor. La electricidad producida es inyectada al Sistema Interconectado Nacional.
+    .row.aling-items-center.justify-content.center.mb-4(data-aos="zoom-in-down")
+      .jumbotron-17
+        .col-11.col-md-11.col-lg-3.col-sm-11.mb-3
+          img(src='@/assets/curso/images/tema2/img_13.png'  alt='')
+          .bg.p-2
+            h4.text-center.mb-0 Generación de electricidad
+          .bg-1.p-2
+            p.mb-0.p-3 Existen centrales térmicas de gran capacidad que utilizan gas para producir electricidad mediante turbinas de gas o turbinas de vapor. La electricidad producida es inyectada al Sistema Interconectado Nacional.
 
-      .col-11.col-md-3.col-lg.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema2/img_14.png'  alt='')
-        .bg.p-2
-          h4.text-center.mb-0 Transporte
-        .bg-1.p-2
-          p.mb-5.p-3 El gas natural se utiliza como combustible de automóviles particulares y de servicio público, también en autobuses y en los sistemas masivos de transporte de las ciudades.
+        .col-11.col-md-11.col-lg-3.col-sm-11.mb-3
+          img(src='@/assets/curso/images/tema2/img_14.png'  alt='')
+          .bg.p-2
+            h4.text-center.mb-0 Transporte
+          .bg-1.p-2
+            p.mb-5.p-3 El gas natural se utiliza como combustible de automóviles particulares y de servicio público, también en autobuses y en los sistemas masivos de transporte de las ciudades.
 
-      .col-11.col-md-3.col-lg.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema2/img_15.png'  alt='')
-        .bg.p-2
-          h4.text-center.mb-0 Residencial y comercial
-        .bg-1.p-2.mb-3
-          p.mb-5.p-3 Este recurso es muy utilizado en los hogares para el uso en las estufas, calentadores de agua y en calefacción de interiores y exterior en zonas climáticas con temperaturas bajas.
+        .col-11.col-md-11.col-lg-3.col-sm-11.mb-3
+          img(src='@/assets/curso/images/tema2/img_15.png'  alt='')
+          .bg.p-2
+            h4.text-center.mb-0 Residencial y comercial
+          .bg-1.p-2.mb-3
+            p.mb-5.p-3 Este recurso es muy utilizado en los hogares para el uso en las estufas, calentadores de agua y en calefacción de interiores y exterior en zonas climáticas con temperaturas bajas.
 
-      .col-11.col-md-3.col-lg.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema2/img_16.png'  alt='')
-        .bg.p-2
-          h4.text-center.mb-0 Industrial
-        .bg-1.p-2
-          p.mb-5.p-3 El gas natural es utilizado en diferentes procesos y equipos en la industria tales como calderas de vapor, secadores, hornos, sistemas de cogeneración, entre otros.
+        .col-11.col-md-11.col-lg-3.col-sm-11.mb-3
+
+          img(src='@/assets/curso/images/tema2/img_16.png'  alt='')
+          .bg.p-2
+            h4.text-center.mb-0 Industrial
+          .bg-1.p-2
+            p.mb-5.p-3 El gas natural es utilizado en diferentes procesos y equipos en la industria tales como calderas de vapor, secadores, hornos, sistemas de cogeneración, entre otros.
 
     p.mb-3 Como complemento a la información se invita a que ahora observe el siguiente video.
 
@@ -343,24 +345,24 @@
       .row(titulo="Producción")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_17.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Después de la exploración sísmica y exploratoria, el gas es llevado a la superficie para posteriormente pasar por un proceso de limpieza. Luego se lleva a un sistema de compresión (estación de compresión) donde se eleva la presión para ser conducida a las tuberías de transporte.
       .row(titulo="Transporte")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_18.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en llevar el gas a alta presión a través de kilómetros de tuberías denominadas gasoductos hacia los centros de distribución y directamente hacia los grandes usuarios como los generadores de energía eléctrica y grandes industrias.
 
       .row(titulo="Distribución")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_19.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 En esta actividad se baja la presión del gas a través de equipos especiales y se adiciona un olor característico (proceso de odorización) para garantizar la seguridad de las personas. El gas es llevado hacia los usuarios finales a través de tuberías de menor diámetro que atraviesan las ciudades y pueblos.
           
       .row(titulo="Comercialización")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_20.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Es el proceso mediante el cual los consumidores adquieren el gas natural para su consumo. A contraprestación, el usuario recibe una factura con el valor de consumo en metros cúbicos, el valor unitario de pesos por metro cúbico ($/m3) y el valor total a pagar en pesos.
 
 
@@ -503,7 +505,7 @@
       .row(titulo="Prospección")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_24.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en la identificación de posibles fuentes de carbón para el desarrollo de un proyecto minero.
       .row(titulo="Exploración")
         .col-lg-3.lg-0
@@ -514,19 +516,19 @@
       .row(titulo="Construcción y montaje de obras")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_26.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Consiste en la construcción de la infraestructura (carreteras, edificaciones, maquinaria, recursos humanos, etc) necesaria para realizar la extracción, almacenamiento y transporte del carbón.
           
       .row(titulo="Comercialización")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_27.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Se refiere a todas las actividades que conllevan las operaciones de compra y venta del carbón al comprador o usuario final.
 
       .row(titulo="Cierre y abandono")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_28.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 Una vez se haya cumplido con los plazos para la extracción del proyecto carbonífero, se debe elaborar y ejecutar un plan de cierre de la mina de acuerdo con la normativa ambiental y social solicitada por las autoridades competentes.
 
     .row.mb-3.ps-1(data-aos="zoom-in-down")

@@ -18,44 +18,47 @@
 
     .row.align-items-center.justify-content-center.p-4
       SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-        .tarjeta-avatar-2.h-100
-          img(src='@/assets/curso/images/tema9/ico_1.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
-          .tarjeta.color-custom-9
-            .p-4.text-ce
-              h4.text-center Hidráulica
-              p.text-center Aprovecha la energía cinética del agua acumulada en un embalse para mover turbinas
+        .col-md-10.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema9/ico_1.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
+            .tarjeta.color-custom-9
+              .p-4
+                h4.text-center Hidráulica
+                p.text-center Aprovecha la energía cinética del agua acumulada en un embalse para mover turbinas
 
+        .col-md-10.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema9/ico_2.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
 
-        .tarjeta-avatar-2.h-100
-          img(src='@/assets/curso/images/tema9/ico_2.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
-          .tarjeta.color-custom-9
-            .p-3
-              h4.text-center Térmica o combustible fósil
-              p.text-center Utiliza procesos térmicos, químicos y eléctricos para generar energía obtenida a partir de combustibles como el Fuel Oil, Carbón, ACPM, Gas y Jet-A1, entre otros.
+            .tarjeta.color-custom-9
+              .p-4
+                h4.text-center Térmica o combustible fósil
+                p.text-center Utiliza procesos térmicos, químicos y eléctricos para generar energía obtenida a partir de combustibles como el Fuel Oil, Carbón, ACPM, Gas y Jet-A1, entre otros.
 
-        .tarjeta-avatar-2.h-100
-          img.mb-5(src='@/assets/curso/images/tema9/ico_3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
+        .col-md-10.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema9/ico_3.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
+            .tarjeta.color-custom-9
+              .p-4
+                h4.text-center Solar
+                p.text-center Utiliza como fuente primaria la energía proveniente de la radiación solar.
 
-          .tarjeta.color-custom-9
-            .p-3
-              h4.text-center Solar
-              p.text-center Utiliza como fuente primaria la energía proveniente de la radiación solar.
+        .col-md-10.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
+            .tarjeta.color-custom-9
+              .p-4
+                h4.text-center Eólica
+                p.text-center Utiliza como fuente primaria la energía de las corrientes de aire para mover las palas de un aerogenerador.
 
-        .tarjeta-avatar-2.h-100
-          img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
+        .col-md-10.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
+            .tarjeta.color-custom-9
+              .p-4
+                h4.text-center Biomasa
+                p.text-center Utiliza procesos térmicos, químicos y eléctricos para generar energía obtenida a partir de la materia orgánica como plantas, residuos de los animales y de los humanos.
 
-          .tarjeta.color-custom-9
-            .p-3
-              h4.text-center Eólica
-              p.text-center Utiliza como fuente primaria la energía de las corrientes de aire para mover las palas de un aerogenerador.
-
-        .tarjeta-avatar-2.h-100
-          img(src='@/assets/curso/images/tema9/ico_5.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
-
-          .tarjeta.color-custom-9
-            .p-3
-              h4.text-center Biomasa
-              p.text-center Utiliza procesos térmicos, químicos y eléctricos para generar energía obtenida a partir de la materia orgánica como plantas, residuos de los animales y de los humanos.
 
     .row.mb-3.ps-1(data-aos="zoom-in-down")
       .col-lg-3.bg-color-1
