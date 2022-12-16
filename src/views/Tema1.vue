@@ -213,7 +213,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-3.col-lg-2
-                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                  img.mx-1.px-md-3.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg")
                 .col.mb-3.mb-sm-0
                   h5.text-white Primera ley de la termodinámica
                   p.mb-1.text-white Se establece la relación entre el trabajo, el calor y la energía interna de un sistema relacionados con la primera ley de la termodinámica, como la energía, algunas de sus principales formas y cómo se transforma.
@@ -239,7 +239,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-3.col-lg-2
-                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                  img.mx-1.px-md-3.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg")
                 .col.mb-3.mb-sm-0
                   h5.text-white Segunda ley de la termodinámica
                   p.mb-1.text-white Se presentan en primer lugar algunos conceptos relacionados con la segunda ley, como depósitos, máquinas térmicas, entre otros, en los postulados de la segunda ley se presenta el ciclo de Carnot como ciclo ideal, y algunas máquinas como refrigeradores y bombas de calor.
@@ -266,7 +266,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-3.col-lg-2
-                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
+                  img.mx-1.px-md-3.mb-3(src="@/assets/curso/images/tema1/ico_descargar.svg").mb-3
                 .col.mb-3.mb-sm-0
                   h5.text-white Principales ciclos de la termodinámica
                   p.mb-1.text-white Descubra cuáles son los principales ciclos que se estudian en termodinámica a partir de las distintas fuentes de energía.

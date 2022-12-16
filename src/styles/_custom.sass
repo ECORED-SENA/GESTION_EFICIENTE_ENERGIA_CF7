@@ -293,12 +293,13 @@
   @media (max-width: 992px)
     background-repeat: no-repeat
     background-color:#C3D4EC 
-    width: 100% !important
+    width: auto !important
     height: 300px !important
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-color: #C3D4EC 
-     height: 300px !important
+    height: 300px !important
+    width: auto !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-color: #C3D4EC 
@@ -391,6 +392,9 @@
 .m-top      
   margin-top: -21px !important
 
+.m-b
+  margin-bottom: -21px !important
+
 .acordion
   .tarjeta--azul
     background-color: #EAE0FF
@@ -404,25 +408,14 @@
   border-color: #AD84FF
   background-color: #AD84FF
 
-.tarjeta-avatar > img 
-  @media (max-width: 768px)
-    position: absolute
-    left: 20%
-    top: 0
-    transform: translateX(-50%)
-    display: block
-    width: 150px
-    margin: 0 auto
-  @media (max-width: $bp-max-md) 
-    margin-left: 85px !important
+
 
 .tarjeta-avatar 
   height: auto !important
   position: relative
   padding-top: 75px
   @media (max-width: 768px)
-    width: 280px
-    margin-left: 80px
+    width: 100% !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-size: cover
@@ -430,9 +423,12 @@
     height: auto
     margin-left: 40px
     margin-right: 10px
-  @media (max-width: $bp-max-md) 
-    margin-left: 190px !important
- 
+  @media (max-width: $bp-min-md) 
+    margin-left: 40px !important
+  @media (max-width: 412px)
+    margin-left: 10px !important
+
+.tarjeta-avatar-1 
   height: auto
   position: relative
   padding-top: 75px
@@ -529,6 +525,7 @@ td, th
 
 .jumbotron-12
   background-color: #fff
+  
 
 .jumbotron-13
   background-color: #0F58B9

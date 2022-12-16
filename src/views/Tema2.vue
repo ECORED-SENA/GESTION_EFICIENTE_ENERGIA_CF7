@@ -140,8 +140,8 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-3.col-lg-1
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_video.svg").mb-3
+                .col-3.col-lg-2
+                  img.mx-1.px-md-2.mb-3(src="@/assets/curso/images/tema1/ico_video.svg")
                 .col.mb-3.mb-sm-0
                   h5.text-white b. Aplicaciones comerciales
                   p.mb-1.text-white En el siguiente video se muestran algunas de las aplicaciones del petróleo en los elementos de la vida cotidiana:
@@ -510,7 +510,7 @@
       .row(titulo="Exploración")
         .col-lg-3.lg-0
           img(src='@/assets/curso/images/tema2/img_25.png'  alt='').mb-3
-        .col-md-9.mb-4.mb-md-0.ps-3
+        .col-md-12.mb-4.mb-md-0.ps-3
           p.mb-0 En esta parte de la cadena se pretende hacer una identificación de las características geológicas de un yacimiento. Consiste en la realización de manera secuencial de las siguientes actividades: geología superficial, geología del subsuelo, elaboración del modelo geológico del yacimiento y programación de trabajos y obras requeridos.
 
       .row(titulo="Construcción y montaje de obras")

@@ -55,24 +55,24 @@
     
     .jumbotron-18
       .row.justify-content-center.mb-5(data-aos="zoom-in-right")
-        .col-12.col-md-8.col-lg.col-sm-12.mb-5
+        .col-12.col-md-8.col-lg.col-sm-12.mb-0
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema8/1.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
-            .tarjeta.color-custom-7
+            .tarjeta.color-custom-7.m-top     
               .p-0
-                p.text-center.mb-4 <b>Centro Nacional de Despacho (CND).</b>
+                p.text-center.mb-5 <b>Centro Nacional de Despacho (CND).</b>
         .col-12.col-md-8.col-lg.col-sm-12.mb-5
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema8/2.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
-            .tarjeta.color-custom-8
+            .tarjeta.color-custom-8.m-top     
               .p-0
-                p.text-center <b>Administrador del Sistema de Intercambios Comerciales (ASIC).</b>
+                p.text-center.mb-4 <b>Administrador del Sistema de Intercambios Comerciales (ASIC).</b>
         .col-12.col-md-8.col-lg.col-sm-12.mb-5
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema8/3.svg',  alt='', style="width:100px; display:block; margin:auto 0 ;")
-            .tarjeta.color-custom-7
+            .tarjeta.color-custom-7.m-top     
               .p-0       
-                p.text-center <b>Liquidador y Administrador de Cuentas de cargos por Uso de las Redes del SIN (LAC).</b>
+                p.text-center.mb-4 <b>Liquidador y Administrador de Cuentas de cargos por Uso de las Redes del SIN (LAC).</b>
 
 
 

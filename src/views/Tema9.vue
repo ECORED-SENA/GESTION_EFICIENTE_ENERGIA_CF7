@@ -53,7 +53,7 @@
 
         .col-md-10.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
-            img(src='@/assets/curso/images/tema9/ico_4.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
+            img(src='@/assets/curso/images/tema9/ico_5.svg' alt='', style="width:120px; display:block; margin:auto 0 ;")
             .tarjeta.color-custom-9
               .p-4
                 h4.text-center Biomasa
