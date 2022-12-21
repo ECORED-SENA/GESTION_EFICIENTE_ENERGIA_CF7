@@ -166,7 +166,7 @@
               h4 Inspección
               p.mt-1 Recopila y valida la información jurídica, técnica, contable, comercial y administrativa de las empresas prestadoras del servicio.
         hr 
-        .jumbotron-12.m-top.m-b.p-4.mb-3
+        .jumbotron-12.m-top.m-b.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema7/ico_8.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
@@ -174,7 +174,7 @@
               h4 Vigilancia
               p.mt-1 Monitorea la operación de las empresas prestadoras del servicio para determinar alertas que pongan en riesgo la prestación del servicio.
         hr 
-        .jumbotron-12.m-top.m-b.p-4.mb-3
+        .jumbotron-12.m-top.m-b.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema7/ico_9.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
@@ -182,7 +182,7 @@
               h4 Control
               p.mt-1 Aplica las medidas administrativas a las empresas que incumplan la normatividad vigente, para que sean corregidas como protección para la correcta prestación del servicio.
         hr 
-        .jumbotron-12.m-top.m-b.p-4.mb-3 
+        .jumbotron-12.m-top.m-b.p-2.mb-3 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema7/ico_10.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
@@ -190,7 +190,7 @@
               h4 Protección de los usuarios
               p.mt-1 Atiende las consultas y orienta para la presentación de peticiones, quejas y reclamos a las empresas prestadoras del servicio. Adicionalmente resuelve (en segunda instancia) las reclamaciones de los usuarios y sanciona a las empresas que no dan respuesta a tiempo a las reclamaciones.
         hr 
-        .jumbotron-12.m-top.p-4
+        .jumbotron-12.m-top.p-2
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema7/ico_11.svg' alt='', style="width:60px; display:block; margin:auto 0 ;").mb-3
